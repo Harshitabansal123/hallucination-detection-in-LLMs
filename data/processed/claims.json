@@ -1,0 +1,185 @@
+{
+    "question": "Who discovered penicillin?",
+    "answer": "Penicillin was discovered by Alexander Fleming in 1928. Fleming was a Scottish- born British bacteriologist who noticed that a mold called Penicillium notatum had contaminated a culture dish and had formed a circle around which bacteria were not growing. This observation led him to discover the antibiotic properties of this mold, which he named \"penicillin.\" Fleming's discovery was a significant milestone in the field of medicine and marked the beginning of modern antibiotics.",
+    "claims": [
+        {
+            "claim_id": 1,
+            "claim": "Penicillin was discovered by Alexander Fleming in 1928."
+        },
+        {
+            "claim_id": 2,
+            "claim": "Fleming was a Scottish-born British bacteriologist."
+        },
+        {
+            "claim_id": 3,
+            "claim": "A mold called Penicillium notatum had contaminated a culture dish and had formed a circle around which bacteria were not growing."
+        },
+        {
+            "claim_id": 4,
+            "claim": "Fleming's discovery led to the discovery of the antibiotic properties of the mold."
+        },
+        {
+            "claim_id": 5,
+            "claim": "Fleming named the substance 'penicillin'."
+        }
+    ],
+    "samples": [
+        {
+            "question": "Who discovered penicillin?",
+            "answer": "Penicillin was discovered by Alexander Fleming in 1928. Fleming was a Scottish- born British bacteriologist who noticed that a mold called Penicillium notatum had contaminated a culture dish and had formed a circle around which bacteria were not growing. This observation led him to discover the antibiotic properties of this mold, which he named \"penicillin.\" Fleming's discovery was a significant milestone in the field of medicine and marked the beginning of modern antibiotics.",
+            "claims": [
+                {
+                    "claim_id": 1,
+                    "claim": "Penicillin was discovered by Alexander Fleming in 1928."
+                },
+                {
+                    "claim_id": 2,
+                    "claim": "Fleming was a Scottish-born British bacteriologist."
+                },
+                {
+                    "claim_id": 3,
+                    "claim": "A mold called Penicillium notatum had contaminated a culture dish and had formed a circle around which bacteria were not growing."
+                },
+                {
+                    "claim_id": 4,
+                    "claim": "Fleming's discovery led to the discovery of the antibiotic properties of the mold."
+                },
+                {
+                    "claim_id": 5,
+                    "claim": "Fleming named the substance 'penicillin'."
+                }
+            ],
+            "sample_id": 1
+        },
+        {
+            "question": "what is machine learning?",
+            "answer": "Machine learning is a subset of artificial intelligence that enables software applications to become more accurate in predicting outcomes without being explicitly programmed. Instead of being coded with specific instructions for every possible scenario, machine learning algorithms learn from and make predictions or decisions based on patterns and features in the data they process.\n\nKey aspects of machine learning include:\n\n1. **Data**: The algorithm learns from large datasets, which can be structured (like databases) or unstructured (like text, images, or audio).\n\n2. **Algorithms**: These are the core methods used to analyze data and make predictions. Common types include supervised learning (where the model is trained on labeled data), unsupervised learning (where the model identifies patterns in unlabeled data), semi-supervised learning (a mix of labeled and unlabeled data), and reinforcement learning (where the model learns through trial and error).\n\n3. **Training**: The process of adjusting the parameters of the model to minimize errors between predicted and actual outcomes.\n\n4. **Evaluation**: Assessing how well the model performs on unseen data to ensure it generalizes well to new situations.\n\n5. **Deployment**: Using the trained model to make predictions or take actions in real-world scenarios.\n\nMachine learning has numerous applications across various industries, including healthcare, finance, e-commerce, and more, making it an essential technology for many modern technologies and services.",
+            "claims": [
+                {
+                    "claim_id": 1,
+                    "claim": "Machine learning is a subset of artificial intelligence."
+                },
+                {
+                    "claim_id": 2,
+                    "claim": "Machine learning enables software applications to become more accurate in predicting outcomes."
+                },
+                {
+                    "claim_id": 3,
+                    "claim": "Machine learning algorithms learn from and make predictions or decisions based on patterns and features in the data they process."
+                },
+                {
+                    "claim_id": 4,
+                    "claim": "Machine learning includes supervised learning, unsupervised learning, semi-supervised learning, and reinforcement learning."
+                },
+                {
+                    "claim_id": 5,
+                    "claim": "Machine learning involves the process of adjusting the parameters of the model to minimize errors between predicted and actual outcomes."
+                },
+                {
+                    "claim_id": 6,
+                    "claim": "Machine learning involves assessing how well the model performs on unseen data to ensure it generalizes well to new situations."
+                },
+                {
+                    "claim_id": 7,
+                    "claim": "Machine learning involves using the trained model to make predictions or take actions in real-world scenarios."
+                },
+                {
+                    "claim_id": 8,
+                    "claim": "Machine learning has numerous applications across various industries."
+                }
+            ],
+            "sample_id": 2
+        },
+        {
+            "question": "what is the capital of france?",
+            "answer": "The capital of France is Paris.",
+            "claims": [
+                {
+                    "claim_id": 1,
+                    "claim": "The capital of France is Paris."
+                }
+            ],
+            "sample_id": 3
+        },
+        {
+            "question": "Who discovered penicillin?",
+            "language": "hi",
+            "model": "Qwen/Qwen2.5-3B-Instruct",
+            "answer": "Penicillin was discovered by Alexander Fleming in 1928. Fleming was a Scottish- born British bacteriologist who noticed that a mold called Penicillium notatum had contaminated a culture dish and had formed a circle around which bacteria were not growing. This observation led him to discover the antibiotic properties of this mold, which he named \"penicillin.\" Fleming's discovery was a significant milestone in the field of medicine and marked the beginning of modern antibiotics.",
+            "claims": [
+                {
+                    "claim_id": 1,
+                    "claim": "Penicillin was discovered by Alexander Fleming in 1928."
+                },
+                {
+                    "claim_id": 2,
+                    "claim": "Fleming was a Scottish-born British bacteriologist."
+                },
+                {
+                    "claim_id": 3,
+                    "claim": "A mold called Penicillium notatum had contaminated a culture dish and had formed a circle around which bacteria were not growing."
+                },
+                {
+                    "claim_id": 4,
+                    "claim": "Fleming's discovery led to the discovery of the antibiotic properties of the mold."
+                },
+                {
+                    "claim_id": 5,
+                    "claim": "Fleming named the substance 'penicillin'."
+                }
+            ],
+            "sample_id": 4
+        },
+        {
+            "question": "Who discovered penicillin?",
+            "language": "hi",
+            "model": "Qwen/Qwen2.5-3B-Instruct",
+            "answer": "पिङ्गलिन को पिछले लोगों द्वारा खोजकरण किया गया है। यह अमेज़नियस से बने एक शारीरिक जीवनी के फलसफीय उत्पाद है जो चिकित्सा में अच्छी तरह से अपडेट किया जा रहा है। इसका खोज ब्रिटेन के एडवियर्थ डेनियल एंटोनियस ने 1928 में किया गया था। वह एक रोगी के आंसर के लिए चिकित्सा करते समय एक नए जीवनी का फलस्वरूप खोज किया। यह खोज नव",
+            "claims": [
+                {
+                    "claim_id": 1,
+                    "claim": "पिङ्गलिन को पिछले लोगों द्वारा खोजकरण किया गया है।"
+                },
+                {
+                    "claim_id": 2,
+                    "claim": "इसका खोज ब्रिटेन के एडवियर्थ डेनियल एंटोनियस ने 1928 में किया गया था।"
+                },
+                {
+                    "claim_id": 3,
+                    "claim": "इसका खोज नवीन जीवनी का फलस्वरूप चिकित्सा करने वाले एक रोगी के लिए खोज किया गया था।"
+                }
+            ],
+            "sample_id": 5
+        },
+        {
+            "question": "what is machine learning?",
+            "language": "hi",
+            "model": "Qwen/Qwen2.5-3B-Instruct",
+            "answer": "मशीन शोध (Machine Learning) है जो की डेटा के आधार पर इनपुट को उच्च स्केलिंग और अच्छी तरह से व्यवस्थित करने की शक्ति देता है। यह एक विशिष्ट शाखा मशीन लर्निंग (Machine Learning) है जो डेटा को ध्यान में रखकर इनपुट को उच्च स्केलिंग और अच्छी तरह से व्यवस्थित करने की शक्ति देता है।",
+            "claims": [
+                {
+                    "claim_id": 1,
+                    "claim": "मशीन शोध (Machine Learning) है जो की डेटा के आधार पर इनपुट को उच्च स्केलिंग और अच्छी तरह से व्यवस्थित करने की शक्ति देता है।"
+                },
+                {
+                    "claim_id": 2,
+                    "claim": "एक विशिष्ट शाखा मशीन लर्निंग (Machine Learning) है जो डेटा को ध्यान में रखकर इनपुट को उच्च स्केलिंग और अच्छी तरह से व्यवस्थित करने की शक्ति देता है।"
+                }
+            ],
+            "sample_id": 6
+        },
+        {
+            "question": "prime minister india",
+            "language": "en",
+            "model": "Qwen/Qwen2.5-3B-Instruct",
+            "answer": "The current Prime Minister of India is Narendra Modi.",
+            "claims": [
+                {
+                    "claim_id": 1,
+                    "claim": "The current Prime Minister of India is Narendra Modi."
+                }
+            ],
+            "sample_id": 7
+        }
+    ]
+}

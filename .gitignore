@@ -1,0 +1,33 @@
+# Python virtual environment
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Generated data
+data/processed/*
+!data/processed/claims.json
+
+# Model/cache files
+*.bin
+*.safetensors
+*.pt
+*.pth
+
+# Environment variables
+.env
+
+# VS Code
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Pyserini cache
+.cache/
