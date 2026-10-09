@@ -1,9 +1,10 @@
 import gzip
 import json
-import re
 
 from huggingface_hub import hf_hub_download
 from rank_bm25 import BM25Okapi
+
+from .tokenizer import tokenize
 
 
 class MIRACLShardRetriever:
@@ -24,14 +25,6 @@ class MIRACLShardRetriever:
         self.shards = []
 
         self.build_indexes()
-
-    def tokenize(self, text):
-
-        return re.findall(
-            r"\w+",
-            text.lower(),
-            flags=re.UNICODE
-        )
 
     def load_shard(self, shard_number):
 
@@ -83,7 +76,7 @@ class MIRACLShardRetriever:
             )
 
             documents = [
-                self.tokenize(
+                tokenize(
                     item["title"] + " " + item["text"]
                 )
                 for item in passages
@@ -107,7 +100,7 @@ class MIRACLShardRetriever:
 
     def retrieve(self, claim, top_k=200):
 
-        query_tokens = self.tokenize(claim)
+        query_tokens = tokenize(claim)
 
         best_results = []
 

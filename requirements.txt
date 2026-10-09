@@ -1,3 +1,4 @@
+
 torch
 transformers
 accelerate
@@ -9,3 +10,4 @@ huggingface-hub
 datasets
 faiss-cpu
 pyserini
+regex
