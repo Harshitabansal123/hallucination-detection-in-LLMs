@@ -1,185 +1,566 @@
 {
-    "question": "Who discovered penicillin?",
-    "answer": "Penicillin was discovered by Alexander Fleming in 1928. Fleming was a Scottish- born British bacteriologist who noticed that a mold called Penicillium notatum had contaminated a culture dish and had formed a circle around which bacteria were not growing. This observation led him to discover the antibiotic properties of this mold, which he named \"penicillin.\" Fleming's discovery was a significant milestone in the field of medicine and marked the beginning of modern antibiotics.",
-    "claims": [
+  "question": "Who discovered penicillin?",
+  "answer": "Penicillin was discovered by Alexander Fleming in 1928. Fleming was a Scottish- born British bacteriologist who noticed that a mold called Penicillium notatum had contaminated a culture dish and had formed a circle around which bacteria were not growing. This observation led him to discover the antibiotic properties of this mold, which he named \"penicillin.\" Fleming's discovery was a significant milestone in the field of medicine and marked the beginning of modern antibiotics.",
+  "claims": [
+    {
+      "claim_id": 1,
+      "claim": "Penicillin was discovered by Alexander Fleming in 1928."
+    },
+    {
+      "claim_id": 2,
+      "claim": "Fleming was a Scottish-born British bacteriologist."
+    },
+    {
+      "claim_id": 3,
+      "claim": "A mold called Penicillium notatum had contaminated a culture dish and had formed a circle around which bacteria were not growing."
+    },
+    {
+      "claim_id": 4,
+      "claim": "Fleming's discovery led to the discovery of the antibiotic properties of the mold."
+    },
+    {
+      "claim_id": 5,
+      "claim": "Fleming named the substance 'penicillin'."
+    }
+  ],
+  "samples": [
+    {
+      "question": "Who discovered penicillin?",
+      "answer": "Penicillin was discovered by Alexander Fleming in 1928. Fleming was a Scottish- born British bacteriologist who noticed that a mold called Penicillium notatum had contaminated a culture dish and had formed a circle around which bacteria were not growing. This observation led him to discover the antibiotic properties of this mold, which he named \"penicillin.\" Fleming's discovery was a significant milestone in the field of medicine and marked the beginning of modern antibiotics.",
+      "claims": [
         {
-            "claim_id": 1,
-            "claim": "Penicillin was discovered by Alexander Fleming in 1928."
+          "claim_id": 1,
+          "claim": "Penicillin was discovered by Alexander Fleming in 1928."
         },
         {
-            "claim_id": 2,
-            "claim": "Fleming was a Scottish-born British bacteriologist."
+          "claim_id": 2,
+          "claim": "Fleming was a Scottish-born British bacteriologist."
         },
         {
-            "claim_id": 3,
-            "claim": "A mold called Penicillium notatum had contaminated a culture dish and had formed a circle around which bacteria were not growing."
+          "claim_id": 3,
+          "claim": "A mold called Penicillium notatum had contaminated a culture dish and had formed a circle around which bacteria were not growing."
         },
         {
-            "claim_id": 4,
-            "claim": "Fleming's discovery led to the discovery of the antibiotic properties of the mold."
+          "claim_id": 4,
+          "claim": "Fleming's discovery led to the discovery of the antibiotic properties of the mold."
         },
         {
-            "claim_id": 5,
-            "claim": "Fleming named the substance 'penicillin'."
+          "claim_id": 5,
+          "claim": "Fleming named the substance 'penicillin'."
         }
-    ],
-    "samples": [
+      ],
+      "sample_id": 1,
+      "review_status": "pending",
+      "language": "en"
+    },
+    {
+      "question": "what is machine learning?",
+      "answer": "Machine learning is a subset of artificial intelligence that enables software applications to become more accurate in predicting outcomes without being explicitly programmed. Instead of being coded with specific instructions for every possible scenario, machine learning algorithms learn from and make predictions or decisions based on patterns and features in the data they process.\n\nKey aspects of machine learning include:\n\n1. **Data**: The algorithm learns from large datasets, which can be structured (like databases) or unstructured (like text, images, or audio).\n\n2. **Algorithms**: These are the core methods used to analyze data and make predictions. Common types include supervised learning (where the model is trained on labeled data), unsupervised learning (where the model identifies patterns in unlabeled data), semi-supervised learning (a mix of labeled and unlabeled data), and reinforcement learning (where the model learns through trial and error).\n\n3. **Training**: The process of adjusting the parameters of the model to minimize errors between predicted and actual outcomes.\n\n4. **Evaluation**: Assessing how well the model performs on unseen data to ensure it generalizes well to new situations.\n\n5. **Deployment**: Using the trained model to make predictions or take actions in real-world scenarios.\n\nMachine learning has numerous applications across various industries, including healthcare, finance, e-commerce, and more, making it an essential technology for many modern technologies and services.",
+      "claims": [
         {
-            "question": "Who discovered penicillin?",
-            "answer": "Penicillin was discovered by Alexander Fleming in 1928. Fleming was a Scottish- born British bacteriologist who noticed that a mold called Penicillium notatum had contaminated a culture dish and had formed a circle around which bacteria were not growing. This observation led him to discover the antibiotic properties of this mold, which he named \"penicillin.\" Fleming's discovery was a significant milestone in the field of medicine and marked the beginning of modern antibiotics.",
-            "claims": [
-                {
-                    "claim_id": 1,
-                    "claim": "Penicillin was discovered by Alexander Fleming in 1928."
-                },
-                {
-                    "claim_id": 2,
-                    "claim": "Fleming was a Scottish-born British bacteriologist."
-                },
-                {
-                    "claim_id": 3,
-                    "claim": "A mold called Penicillium notatum had contaminated a culture dish and had formed a circle around which bacteria were not growing."
-                },
-                {
-                    "claim_id": 4,
-                    "claim": "Fleming's discovery led to the discovery of the antibiotic properties of the mold."
-                },
-                {
-                    "claim_id": 5,
-                    "claim": "Fleming named the substance 'penicillin'."
-                }
-            ],
-            "sample_id": 1
+          "claim_id": 1,
+          "claim": "Machine learning is a subset of artificial intelligence."
         },
         {
-            "question": "what is machine learning?",
-            "answer": "Machine learning is a subset of artificial intelligence that enables software applications to become more accurate in predicting outcomes without being explicitly programmed. Instead of being coded with specific instructions for every possible scenario, machine learning algorithms learn from and make predictions or decisions based on patterns and features in the data they process.\n\nKey aspects of machine learning include:\n\n1. **Data**: The algorithm learns from large datasets, which can be structured (like databases) or unstructured (like text, images, or audio).\n\n2. **Algorithms**: These are the core methods used to analyze data and make predictions. Common types include supervised learning (where the model is trained on labeled data), unsupervised learning (where the model identifies patterns in unlabeled data), semi-supervised learning (a mix of labeled and unlabeled data), and reinforcement learning (where the model learns through trial and error).\n\n3. **Training**: The process of adjusting the parameters of the model to minimize errors between predicted and actual outcomes.\n\n4. **Evaluation**: Assessing how well the model performs on unseen data to ensure it generalizes well to new situations.\n\n5. **Deployment**: Using the trained model to make predictions or take actions in real-world scenarios.\n\nMachine learning has numerous applications across various industries, including healthcare, finance, e-commerce, and more, making it an essential technology for many modern technologies and services.",
-            "claims": [
-                {
-                    "claim_id": 1,
-                    "claim": "Machine learning is a subset of artificial intelligence."
-                },
-                {
-                    "claim_id": 2,
-                    "claim": "Machine learning enables software applications to become more accurate in predicting outcomes."
-                },
-                {
-                    "claim_id": 3,
-                    "claim": "Machine learning algorithms learn from and make predictions or decisions based on patterns and features in the data they process."
-                },
-                {
-                    "claim_id": 4,
-                    "claim": "Machine learning includes supervised learning, unsupervised learning, semi-supervised learning, and reinforcement learning."
-                },
-                {
-                    "claim_id": 5,
-                    "claim": "Machine learning involves the process of adjusting the parameters of the model to minimize errors between predicted and actual outcomes."
-                },
-                {
-                    "claim_id": 6,
-                    "claim": "Machine learning involves assessing how well the model performs on unseen data to ensure it generalizes well to new situations."
-                },
-                {
-                    "claim_id": 7,
-                    "claim": "Machine learning involves using the trained model to make predictions or take actions in real-world scenarios."
-                },
-                {
-                    "claim_id": 8,
-                    "claim": "Machine learning has numerous applications across various industries."
-                }
-            ],
-            "sample_id": 2
+          "claim_id": 2,
+          "claim": "Machine learning enables software applications to become more accurate in predicting outcomes."
         },
         {
-            "question": "what is the capital of france?",
-            "answer": "The capital of France is Paris.",
-            "claims": [
-                {
-                    "claim_id": 1,
-                    "claim": "The capital of France is Paris."
-                }
-            ],
-            "sample_id": 3
+          "claim_id": 3,
+          "claim": "Machine learning algorithms learn from and make predictions or decisions based on patterns and features in the data they process."
         },
         {
-            "question": "Who discovered penicillin?",
-            "language": "hi",
-            "model": "Qwen/Qwen2.5-3B-Instruct",
-            "answer": "Penicillin was discovered by Alexander Fleming in 1928. Fleming was a Scottish- born British bacteriologist who noticed that a mold called Penicillium notatum had contaminated a culture dish and had formed a circle around which bacteria were not growing. This observation led him to discover the antibiotic properties of this mold, which he named \"penicillin.\" Fleming's discovery was a significant milestone in the field of medicine and marked the beginning of modern antibiotics.",
-            "claims": [
-                {
-                    "claim_id": 1,
-                    "claim": "Penicillin was discovered by Alexander Fleming in 1928."
-                },
-                {
-                    "claim_id": 2,
-                    "claim": "Fleming was a Scottish-born British bacteriologist."
-                },
-                {
-                    "claim_id": 3,
-                    "claim": "A mold called Penicillium notatum had contaminated a culture dish and had formed a circle around which bacteria were not growing."
-                },
-                {
-                    "claim_id": 4,
-                    "claim": "Fleming's discovery led to the discovery of the antibiotic properties of the mold."
-                },
-                {
-                    "claim_id": 5,
-                    "claim": "Fleming named the substance 'penicillin'."
-                }
-            ],
-            "sample_id": 4
+          "claim_id": 4,
+          "claim": "Machine learning includes supervised learning, unsupervised learning, semi-supervised learning, and reinforcement learning."
         },
         {
-            "question": "Who discovered penicillin?",
-            "language": "hi",
-            "model": "Qwen/Qwen2.5-3B-Instruct",
-            "answer": "पिङ्गलिन को पिछले लोगों द्वारा खोजकरण किया गया है। यह अमेज़नियस से बने एक शारीरिक जीवनी के फलसफीय उत्पाद है जो चिकित्सा में अच्छी तरह से अपडेट किया जा रहा है। इसका खोज ब्रिटेन के एडवियर्थ डेनियल एंटोनियस ने 1928 में किया गया था। वह एक रोगी के आंसर के लिए चिकित्सा करते समय एक नए जीवनी का फलस्वरूप खोज किया। यह खोज नव",
-            "claims": [
-                {
-                    "claim_id": 1,
-                    "claim": "पिङ्गलिन को पिछले लोगों द्वारा खोजकरण किया गया है।"
-                },
-                {
-                    "claim_id": 2,
-                    "claim": "इसका खोज ब्रिटेन के एडवियर्थ डेनियल एंटोनियस ने 1928 में किया गया था।"
-                },
-                {
-                    "claim_id": 3,
-                    "claim": "इसका खोज नवीन जीवनी का फलस्वरूप चिकित्सा करने वाले एक रोगी के लिए खोज किया गया था।"
-                }
-            ],
-            "sample_id": 5
+          "claim_id": 5,
+          "claim": "Machine learning involves the process of adjusting the parameters of the model to minimize errors between predicted and actual outcomes."
         },
         {
-            "question": "what is machine learning?",
-            "language": "hi",
-            "model": "Qwen/Qwen2.5-3B-Instruct",
-            "answer": "मशीन शोध (Machine Learning) है जो की डेटा के आधार पर इनपुट को उच्च स्केलिंग और अच्छी तरह से व्यवस्थित करने की शक्ति देता है। यह एक विशिष्ट शाखा मशीन लर्निंग (Machine Learning) है जो डेटा को ध्यान में रखकर इनपुट को उच्च स्केलिंग और अच्छी तरह से व्यवस्थित करने की शक्ति देता है।",
-            "claims": [
-                {
-                    "claim_id": 1,
-                    "claim": "मशीन शोध (Machine Learning) है जो की डेटा के आधार पर इनपुट को उच्च स्केलिंग और अच्छी तरह से व्यवस्थित करने की शक्ति देता है।"
-                },
-                {
-                    "claim_id": 2,
-                    "claim": "एक विशिष्ट शाखा मशीन लर्निंग (Machine Learning) है जो डेटा को ध्यान में रखकर इनपुट को उच्च स्केलिंग और अच्छी तरह से व्यवस्थित करने की शक्ति देता है।"
-                }
-            ],
-            "sample_id": 6
+          "claim_id": 6,
+          "claim": "Machine learning involves assessing how well the model performs on unseen data to ensure it generalizes well to new situations."
         },
         {
-            "question": "prime minister india",
-            "language": "en",
-            "model": "Qwen/Qwen2.5-3B-Instruct",
-            "answer": "The current Prime Minister of India is Narendra Modi.",
-            "claims": [
-                {
-                    "claim_id": 1,
-                    "claim": "The current Prime Minister of India is Narendra Modi."
-                }
-            ],
-            "sample_id": 7
+          "claim_id": 7,
+          "claim": "Machine learning involves using the trained model to make predictions or take actions in real-world scenarios."
+        },
+        {
+          "claim_id": 8,
+          "claim": "Machine learning has numerous applications across various industries."
         }
-    ]
+      ],
+      "sample_id": 2,
+      "review_status": "pending",
+      "language": "en"
+    },
+    {
+      "question": "what is the capital of france?",
+      "answer": "The capital of France is Paris.",
+      "claims": [
+        {
+          "claim_id": 1,
+          "claim": "The capital of France is Paris."
+        }
+      ],
+      "sample_id": 3,
+      "review_status": "pending",
+      "language": "en"
+    },
+    {
+      "question": "Who discovered penicillin?",
+      "language": "hi",
+      "model": "Qwen/Qwen2.5-3B-Instruct",
+      "answer": "Penicillin was discovered by Alexander Fleming in 1928. Fleming was a Scottish- born British bacteriologist who noticed that a mold called Penicillium notatum had contaminated a culture dish and had formed a circle around which bacteria were not growing. This observation led him to discover the antibiotic properties of this mold, which he named \"penicillin.\" Fleming's discovery was a significant milestone in the field of medicine and marked the beginning of modern antibiotics.",
+      "claims": [
+        {
+          "claim_id": 1,
+          "claim": "Penicillin was discovered by Alexander Fleming in 1928."
+        },
+        {
+          "claim_id": 2,
+          "claim": "Fleming was a Scottish-born British bacteriologist."
+        },
+        {
+          "claim_id": 3,
+          "claim": "A mold called Penicillium notatum had contaminated a culture dish and had formed a circle around which bacteria were not growing."
+        },
+        {
+          "claim_id": 4,
+          "claim": "Fleming's discovery led to the discovery of the antibiotic properties of the mold."
+        },
+        {
+          "claim_id": 5,
+          "claim": "Fleming named the substance 'penicillin'."
+        }
+      ],
+      "sample_id": 4,
+      "review_status": "pending"
+    },
+    {
+      "question": "Who discovered penicillin?",
+      "language": "hi",
+      "model": "Qwen/Qwen2.5-3B-Instruct",
+      "answer": "पिङ्गलिन को पिछले लोगों द्वारा खोजकरण किया गया है। यह अमेज़नियस से बने एक शारीरिक जीवनी के फलसफीय उत्पाद है जो चिकित्सा में अच्छी तरह से अपडेट किया जा रहा है। इसका खोज ब्रिटेन के एडवियर्थ डेनियल एंटोनियस ने 1928 में किया गया था। वह एक रोगी के आंसर के लिए चिकित्सा करते समय एक नए जीवनी का फलस्वरूप खोज किया। यह खोज नव",
+      "claims": [
+        {
+          "claim_id": 1,
+          "claim": "पिङ्गलिन को पिछले लोगों द्वारा खोजकरण किया गया है।"
+        },
+        {
+          "claim_id": 2,
+          "claim": "इसका खोज ब्रिटेन के एडवियर्थ डेनियल एंटोनियस ने 1928 में किया गया था।"
+        },
+        {
+          "claim_id": 3,
+          "claim": "इसका खोज नवीन जीवनी का फलस्वरूप चिकित्सा करने वाले एक रोगी के लिए खोज किया गया था।"
+        }
+      ],
+      "sample_id": 5,
+      "review_status": "pending"
+    },
+    {
+      "question": "what is machine learning?",
+      "language": "hi",
+      "model": "Qwen/Qwen2.5-3B-Instruct",
+      "answer": "मशीन शोध (Machine Learning) है जो की डेटा के आधार पर इनपुट को उच्च स्केलिंग और अच्छी तरह से व्यवस्थित करने की शक्ति देता है। यह एक विशिष्ट शाखा मशीन लर्निंग (Machine Learning) है जो डेटा को ध्यान में रखकर इनपुट को उच्च स्केलिंग और अच्छी तरह से व्यवस्थित करने की शक्ति देता है।",
+      "claims": [
+        {
+          "claim_id": 1,
+          "claim": "मशीन शोध (Machine Learning) है जो की डेटा के आधार पर इनपुट को उच्च स्केलिंग और अच्छी तरह से व्यवस्थित करने की शक्ति देता है।"
+        },
+        {
+          "claim_id": 2,
+          "claim": "एक विशिष्ट शाखा मशीन लर्निंग (Machine Learning) है जो डेटा को ध्यान में रखकर इनपुट को उच्च स्केलिंग और अच्छी तरह से व्यवस्थित करने की शक्ति देता है।"
+        }
+      ],
+      "sample_id": 6,
+      "review_status": "pending"
+    },
+    {
+      "question": "prime minister india",
+      "language": "en",
+      "model": "Qwen/Qwen2.5-3B-Instruct",
+      "answer": "The current Prime Minister of India is Narendra Modi.",
+      "claims": [
+        {
+          "claim_id": 1,
+          "claim": "The current Prime Minister of India is Narendra Modi."
+        }
+      ],
+      "sample_id": 7,
+      "review_status": "pending"
+    },
+    {
+      "question": "The Taj Mahal is in Agra. It was commissioned by Shah Jahan and construction began in 1632.python -u -m experiments.test_claim_extraction",
+      "language": "en",
+      "model": "Qwen/Qwen2.5-3B-Instruct",
+      "answer": "The Taj Mahal is indeed located in Agra. It was commissioned by Shah Jahan, and construction began in 1632.",
+      "claims": [
+        {
+          "claim_id": 1,
+          "claim": "The Taj Mahal is located in Agra."
+        },
+        {
+          "claim_id": 2,
+          "claim": "Construction of the Taj Mahal began in 1632."
+        }
+      ],
+      "sample_id": 8,
+      "review_status": "pending"
+    },
+    {
+      "question": "The Taj Mahal is in Agra. It was commissioned by Shah Jahan, and construction began in 1632.",
+      "language": "en",
+      "model": "Qwen/Qwen2.5-3B-Instruct",
+      "answer": "ठाज महल एアग्रा में स्थित है। यह शहाजाहन द्वारा निधान किया गया था और 1632 में निर्माण शुरू हुआ।",
+      "claims": [
+        {
+          "claim_id": 1,
+          "claim": "ठाज महल एアग्रा में स्थित है।"
+        },
+        {
+          "claim_id": 2,
+          "claim": "ठाज महल शहाजाहन द्वारा निधान किया गया था।"
+        },
+        {
+          "claim_id": 3,
+          "claim": "निधान ऑफ ठाज महल 1632 में शुरू हुआ।"
+        }
+      ],
+      "sample_id": 9,
+      "review_status": "pending"
+    },
+    {
+      "question": "Where is the Taj Mahal located?",
+      "language": "en",
+      "model": "Qwen/Qwen2.5-3B-Instruct",
+      "answer": "The Taj Mahal is located in Agra, India.",
+      "claims": [
+        {
+          "claim_id": 1,
+          "claim": "The Taj Mahal is located in Agra, India."
+        }
+      ],
+      "sample_id": 10,
+      "review_status": "pending"
+    },
+    {
+      "question": "তাজমহল কোথায় অবস্থিত?",
+      "language": "bn",
+      "model": "Qwen/Qwen2.5-3B-Instruct",
+      "answer": "তাজমহল ইসলামি আরবের মেকনামার সাঁচিয়ে অবস্থিত।",
+      "claims": [
+        {
+          "claim_id": 1,
+          "claim": "তাজমহল ইসলামি আরবের মেকনামার সাঁচিয়ে অবস্থিত।"
+        }
+      ],
+      "sample_id": 11,
+      "review_status": "pending"
+    },
+    {
+      "question": "where is taj mahal?",
+      "language": "en",
+      "model": "Qwen/Qwen2.5-3B-Instruct",
+      "answer": "The Taj Mahal is located in Agra, India.",
+      "claims": [
+        {
+          "claim_id": 1,
+          "claim": "The Taj Mahal is located in Agra, India."
+        }
+      ],
+      "review_status": "pending",
+      "sample_id": 12
+    },
+    {
+      "sample_id": 13,
+      "question": "पृथ्वीबद्दल तीन तथ्ये सांगा.",
+      "language": "mr",
+      "model": "manually_drafted_multilingual_example",
+      "answer": "पृथ्वी सूर्याभोवती फिरते. पृथ्वीचा एक नैसर्गिक उपग्रह आहे, ज्याला चंद्र म्हणतात. पृथ्वीच्या पृष्ठभागाचा मोठा भाग पाण्याने व्यापलेला आहे.",
+      "claims": [
+        {
+          "claim_id": 1,
+          "claim": "पृथ्वी सूर्याभोवती फिरते."
+        },
+        {
+          "claim_id": 2,
+          "claim": "पृथ्वीचा नैसर्गिक उपग्रह चंद्र आहे."
+        },
+        {
+          "claim_id": 3,
+          "claim": "पृथ्वीच्या पृष्ठभागाचा मोठा भाग पाण्याने व्यापलेला आहे."
+        }
+      ],
+      "review_status": "pending_language_and_fact_review",
+      "data_origin": "manually_drafted_example_not_yet_verified"
+    },
+    {
+      "sample_id": 14,
+      "question": "भारताच्या राजधानीबद्दल आणि राष्ट्रध्वजाबद्दल सांगा.",
+      "language": "mr",
+      "model": "manually_drafted_multilingual_example",
+      "answer": "भारताची राजधानी नवी दिल्ली आहे. भारताच्या राष्ट्रध्वजात केशरी, पांढरा आणि हिरवा असे तीन आडवे रंगपट्टे आहेत. ध्वजाच्या मध्यभागी निळ्या रंगाचे अशोकचक्र आहे.",
+      "claims": [
+        {
+          "claim_id": 1,
+          "claim": "भारताची राजधानी नवी दिल्ली आहे."
+        },
+        {
+          "claim_id": 2,
+          "claim": "भारताच्या राष्ट्रध्वजात केशरी रंगाचा आडवा पट्टा आहे."
+        },
+        {
+          "claim_id": 3,
+          "claim": "भारताच्या राष्ट्रध्वजात पांढऱ्या रंगाचा आडवा पट्टा आहे."
+        },
+        {
+          "claim_id": 4,
+          "claim": "भारताच्या राष्ट्रध्वजात हिरव्या रंगाचा आडवा पट्टा आहे."
+        },
+        {
+          "claim_id": 5,
+          "claim": "भारताच्या राष्ट्रध्वजाच्या मध्यभागी निळ्या रंगाचे अशोकचक्र आहे."
+        }
+      ],
+      "review_status": "pending_language_and_fact_review",
+      "data_origin": "manually_drafted_example_not_yet_verified"
+    },
+    {
+      "sample_id": 15,
+      "question": "प्रकाशसंश्लेषण म्हणजे काय?",
+      "language": "mr",
+      "model": "manually_drafted_multilingual_example",
+      "answer": "हिरव्या वनस्पती प्रकाशसंश्लेषणाद्वारे सूर्यप्रकाशाची ऊर्जा वापरतात. या प्रक्रियेत वनस्पती कार्बन डायऑक्साइड आणि पाणी वापरून साखर तयार करतात. प्रकाशसंश्लेषणादरम्यान ऑक्सिजनही बाहेर सोडला जातो.",
+      "claims": [
+        {
+          "claim_id": 1,
+          "claim": "हिरव्या वनस्पती प्रकाशसंश्लेषणाद्वारे सूर्यप्रकाशाची ऊर्जा वापरतात."
+        },
+        {
+          "claim_id": 2,
+          "claim": "प्रकाशसंश्लेषणात वनस्पती कार्बन डायऑक्साइड वापरतात."
+        },
+        {
+          "claim_id": 3,
+          "claim": "प्रकाशसंश्लेषणात वनस्पती पाणी वापरतात."
+        },
+        {
+          "claim_id": 4,
+          "claim": "प्रकाशसंश्लेषणाद्वारे वनस्पती साखर तयार करतात."
+        },
+        {
+          "claim_id": 5,
+          "claim": "प्रकाशसंश्लेषणादरम्यान ऑक्सिजन बाहेर सोडला जातो."
+        }
+      ],
+      "review_status": "pending_language_and_fact_review",
+      "data_origin": "manually_drafted_example_not_yet_verified"
+    },
+    {
+      "sample_id": 16,
+      "question": "पाण्याच्या उकळण्याच्या तापमानाबद्दल सांगा.",
+      "language": "mr",
+      "model": "manually_drafted_multilingual_example",
+      "answer": "सामान्य वातावरणीय दाबावर शुद्ध पाणी साधारणपणे १०० अंश सेल्सिअस तापमानाला उकळते. वातावरणीय दाब बदलल्यास पाण्याचा उकळण्याचा बिंदू बदलू शकतो.",
+      "claims": [
+        {
+          "claim_id": 1,
+          "claim": "सामान्य वातावरणीय दाबावर शुद्ध पाणी साधारणपणे १०० अंश सेल्सिअस तापमानाला उकळते."
+        },
+        {
+          "claim_id": 2,
+          "claim": "वातावरणीय दाब बदलल्यास पाण्याचा उकळण्याचा बिंदू बदलू शकतो."
+        }
+      ],
+      "review_status": "pending_language_and_fact_review",
+      "data_origin": "manually_drafted_example_not_yet_verified"
+    },
+    {
+      "sample_id": 17,
+      "question": "संगणकाच्या CPU चे कार्य काय आहे?",
+      "language": "mr",
+      "model": "manually_drafted_multilingual_example",
+      "answer": "CPU म्हणजे सेंट्रल प्रोसेसिंग युनिट. ते संगणकाच्या सूचना कार्यान्वित करते. CPU अंकगणितीय आणि तार्किक क्रिया करण्यासाठी वापरले जाते.",
+      "claims": [
+        {
+          "claim_id": 1,
+          "claim": "CPU चे पूर्ण नाव सेंट्रल प्रोसेसिंग युनिट आहे."
+        },
+        {
+          "claim_id": 2,
+          "claim": "CPU संगणकाच्या सूचना कार्यान्वित करते."
+        },
+        {
+          "claim_id": 3,
+          "claim": "CPU अंकगणितीय क्रिया करण्यासाठी वापरले जाते."
+        },
+        {
+          "claim_id": 4,
+          "claim": "CPU तार्किक क्रिया करण्यासाठी वापरले जाते."
+        }
+      ],
+      "review_status": "pending_language_and_fact_review",
+      "data_origin": "manually_drafted_example_not_yet_verified"
+    },
+    {
+      "sample_id": 18,
+      "question": "পৃথিবী সম্পর্কে তিনটি তথ্য বলো।",
+      "language": "bn",
+      "model": "manually_drafted_multilingual_example",
+      "answer": "পৃথিবী সূর্যের চারদিকে ঘোরে। পৃথিবীর একটি প্রাকৃতিক উপগ্রহ আছে, যার নাম চাঁদ। পৃথিবীর পৃষ্ঠের বড় অংশ জল দিয়ে আবৃত।",
+      "claims": [
+        {
+          "claim_id": 1,
+          "claim": "পৃথিবী সূর্যের চারদিকে ঘোরে।"
+        },
+        {
+          "claim_id": 2,
+          "claim": "পৃথিবীর প্রাকৃতিক উপগ্রহের নাম চাঁদ।"
+        },
+        {
+          "claim_id": 3,
+          "claim": "পৃথিবীর পৃষ্ঠের বড় অংশ জল দিয়ে আবৃত।"
+        }
+      ],
+      "review_status": "pending_language_and_fact_review",
+      "data_origin": "manually_drafted_example_not_yet_verified"
+    },
+    {
+      "sample_id": 19,
+      "question": "ভারতের রাজধানী ও জাতীয় পতাকা সম্পর্কে বলো।",
+      "language": "bn",
+      "model": "manually_drafted_multilingual_example",
+      "answer": "ভারতের রাজধানী নয়াদিল্লি। ভারতের জাতীয় পতাকায় গেরুয়া, সাদা ও সবুজ—এই তিনটি অনুভূমিক রঙের দাগ রয়েছে। পতাকার মাঝখানে নীল রঙের অশোকচক্র রয়েছে।",
+      "claims": [
+        {
+          "claim_id": 1,
+          "claim": "ভারতের রাজধানী নয়াদিল্লি।"
+        },
+        {
+          "claim_id": 2,
+          "claim": "ভারতের জাতীয় পতাকায় গেরুয়া রঙের অনুভূমিক দাগ রয়েছে।"
+        },
+        {
+          "claim_id": 3,
+          "claim": "ভারতের জাতীয় পতাকায় সাদা রঙের অনুভূমিক দাগ রয়েছে।"
+        },
+        {
+          "claim_id": 4,
+          "claim": "ভারতের জাতীয় পতাকায় সবুজ রঙের অনুভূমিক দাগ রয়েছে।"
+        },
+        {
+          "claim_id": 5,
+          "claim": "ভারতের জাতীয় পতাকার মাঝখানে নীল রঙের অশোকচক্র রয়েছে।"
+        }
+      ],
+      "review_status": "pending_language_and_fact_review",
+      "data_origin": "manually_drafted_example_not_yet_verified"
+    },
+    {
+      "sample_id": 20,
+      "question": "সালোকসংশ্লেষ কী?",
+      "language": "bn",
+      "model": "manually_drafted_multilingual_example",
+      "answer": "সবুজ উদ্ভিদ সালোকসংশ্লেষের মাধ্যমে সূর্যালোকের শক্তি ব্যবহার করে। এই প্রক্রিয়ায় উদ্ভিদ কার্বন ডাই-অক্সাইড ও জল ব্যবহার করে শর্করা তৈরি করে। সালোকসংশ্লেষের সময় অক্সিজেনও নির্গত হয়।",
+      "claims": [
+        {
+          "claim_id": 1,
+          "claim": "সবুজ উদ্ভিদ সালোকসংশ্লেষের মাধ্যমে সূর্যালোকের শক্তি ব্যবহার করে।"
+        },
+        {
+          "claim_id": 2,
+          "claim": "সালোকসংশ্লেষের সময় উদ্ভিদ কার্বন ডাই-অক্সাইড ব্যবহার করে।"
+        },
+        {
+          "claim_id": 3,
+          "claim": "সালোকসংশ্লেষের সময় উদ্ভিদ জল ব্যবহার করে।"
+        },
+        {
+          "claim_id": 4,
+          "claim": "সালোকসংশ্লেষের মাধ্যমে উদ্ভিদ শর্করা তৈরি করে।"
+        },
+        {
+          "claim_id": 5,
+          "claim": "সালোকসংশ্লেষের সময় অক্সিজেন নির্গত হয়।"
+        }
+      ],
+      "review_status": "pending_language_and_fact_review",
+      "data_origin": "manually_drafted_example_not_yet_verified"
+    },
+    {
+      "sample_id": 21,
+      "question": "জলের স্ফুটনাঙ্ক সম্পর্কে বলো।",
+      "language": "bn",
+      "model": "manually_drafted_multilingual_example",
+      "answer": "স্বাভাবিক বায়ুচাপে বিশুদ্ধ জল সাধারণত ১০০ ডিগ্রি সেলসিয়াসে ফোটে। বায়ুচাপ পরিবর্তিত হলে জলের স্ফুটনাঙ্কও পরিবর্তিত হতে পারে।",
+      "claims": [
+        {
+          "claim_id": 1,
+          "claim": "স্বাভাবিক বায়ুচাপে বিশুদ্ধ জল সাধারণত ১০০ ডিগ্রি সেলসিয়াসে ফোটে।"
+        },
+        {
+          "claim_id": 2,
+          "claim": "বায়ুচাপ পরিবর্তিত হলে জলের স্ফুটনাঙ্ক পরিবর্তিত হতে পারে।"
+        }
+      ],
+      "review_status": "pending_language_and_fact_review",
+      "data_origin": "manually_drafted_example_not_yet_verified"
+    },
+    {
+      "sample_id": 22,
+      "question": "কম্পিউটারের CPU কী কাজ করে?",
+      "language": "bn",
+      "model": "manually_drafted_multilingual_example",
+      "answer": "CPU-এর পূর্ণরূপ Central Processing Unit। এটি কম্পিউটারের নির্দেশ কার্যকর করে। CPU গাণিতিক ও যৌক্তিক কাজ সম্পাদন করে।",
+      "claims": [
+        {
+          "claim_id": 1,
+          "claim": "CPU-এর পূর্ণরূপ Central Processing Unit।"
+        },
+        {
+          "claim_id": 2,
+          "claim": "CPU কম্পিউটারের নির্দেশ কার্যকর করে।"
+        },
+        {
+          "claim_id": 3,
+          "claim": "CPU গাণিতিক কাজ সম্পাদন করে।"
+        },
+        {
+          "claim_id": 4,
+          "claim": "CPU যৌক্তিক কাজ সম্পাদন করে।"
+        }
+      ],
+      "review_status": "pending_language_and_fact_review",
+      "data_origin": "manually_drafted_example_not_yet_verified"
+    },
+    {
+      "sample_id": 23,
+      "question": "সৌরজগতের সূর্য সম্পর্কে বলো।",
+      "language": "bn",
+      "model": "manually_drafted_multilingual_example",
+      "answer": "সূর্য সৌরজগতের একটি নক্ষত্র। পৃথিবী সূর্য থেকে আলো ও তাপ পায়। পৃথিবী সূর্যকে একবার প্রদক্ষিণ করতে প্রায় এক বছর সময় নেয়।",
+      "claims": [
+        {
+          "claim_id": 1,
+          "claim": "সূর্য সৌরজগতের একটি নক্ষত্র।"
+        },
+        {
+          "claim_id": 2,
+          "claim": "পৃথিবী সূর্য থেকে আলো পায়।"
+        },
+        {
+          "claim_id": 3,
+          "claim": "পৃথিবী সূর্য থেকে তাপ পায়।"
+        },
+        {
+          "claim_id": 4,
+          "claim": "পৃথিবী সূর্যকে একবার প্রদক্ষিণ করতে প্রায় এক বছর সময় নেয়।"
+        }
+      ],
+      "review_status": "pending_language_and_fact_review",
+      "data_origin": "manually_drafted_example_not_yet_verified"
+    }
+  ]
 }
