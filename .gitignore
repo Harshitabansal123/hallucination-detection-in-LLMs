@@ -1,6 +1,7 @@
 # Python virtual environment
 venv/
 .venv/
+venv312/
 
 # Python cache
 __pycache__/
@@ -9,6 +10,7 @@ __pycache__/
 # Generated data
 data/processed/*
 !data/processed/claims.json
+!data/processed/evidence.json
 
 # Model/cache files
 *.bin
