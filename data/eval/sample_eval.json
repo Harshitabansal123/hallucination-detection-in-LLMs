@@ -1,0 +1,19 @@
+[
+  {"id": "s1", "claim": "Penicillin was discovered by Alexander Fleming in 1928.", "claim_language": "en",
+   "evidence": [{"text": "Alexander Fleming discovered penicillin in 1928 at St Mary's Hospital, London.", "language": "en"}],
+   "label": "supported"},
+  {"id": "s2", "claim": "Penicillin was discovered by Alexander Fleming in 1950.", "claim_language": "en",
+   "evidence": [{"text": "Alexander Fleming discovered penicillin in 1928 at St Mary's Hospital, London.", "language": "en"}],
+   "label": "contradicted"},
+  {"id": "s3", "claim": "Fleming was a Scottish-born British bacteriologist.", "claim_language": "en",
+   "evidence": [{"text": "Penicillin is an antibiotic used to treat bacterial infections.", "language": "en"}],
+   "label": "unsupported"},
+  {"id": "s4", "claim": "पेनिसिलिन की खोज अलेक्जेंडर फ्लेमिंग ने 1928 में की थी।", "claim_language": "hi",
+   "evidence": [{"text": "Alexander Fleming discovered penicillin in 1928 at St Mary's Hospital, London.", "language": "en"}],
+   "label": "supported"},
+  {"id": "s5", "claim": "पेनिसिलिन की खोज अलेक्जेंडर फ्लेमिंग ने 1950 में की थी।", "claim_language": "hi",
+   "evidence": [{"text": "Alexander Fleming discovered penicillin in 1928 at St Mary's Hospital, London.", "language": "en"}],
+   "label": "contradicted"},
+  {"id": "s6", "claim": "The Eiffel Tower is located in Paris.", "claim_language": "en",
+   "evidence": [], "label": "unsupported"}
+]
