@@ -109,7 +109,7 @@
     },
     {
       "question": "Who discovered penicillin?",
-      "language": "hi",
+      "language": "en",
       "model": "Qwen/Qwen2.5-3B-Instruct",
       "answer": "Penicillin was discovered by Alexander Fleming in 1928. Fleming was a Scottish- born British bacteriologist who noticed that a mold called Penicillium notatum had contaminated a culture dish and had formed a circle around which bacteria were not growing. This observation led him to discover the antibiotic properties of this mold, which he named \"penicillin.\" Fleming's discovery was a significant milestone in the field of medicine and marked the beginning of modern antibiotics.",
       "claims": [
@@ -211,21 +211,21 @@
     },
     {
       "question": "The Taj Mahal is in Agra. It was commissioned by Shah Jahan, and construction began in 1632.",
-      "language": "en",
+      "language": "hi",
       "model": "Qwen/Qwen2.5-3B-Instruct",
-      "answer": "ठाज महल एアग्रा में स्थित है। यह शहाजाहन द्वारा निधान किया गया था और 1632 में निर्माण शुरू हुआ।",
+      "answer": "ताजमहल आगरा में स्थित है। इसे शाहजहाँ के आदेश पर बनवाया गया था और इसका निर्माण 1632 में शुरू हुआ था।",
       "claims": [
         {
           "claim_id": 1,
-          "claim": "ठाज महल एアग्रा में स्थित है।"
+          "claim": "ताजमहल आगरा में स्थित है।"
         },
         {
           "claim_id": 2,
-          "claim": "ठाज महल शहाजाहन द्वारा निधान किया गया था।"
+          "claim": "ताजमहल शाहजहाँ के आदेश पर बनवाया गया था।"
         },
         {
           "claim_id": 3,
-          "claim": "निधान ऑफ ठाज महल 1632 में शुरू हुआ।"
+          "claim": "ताजमहल का निर्माण 1632 में शुरू हुआ।"
         }
       ],
       "sample_id": 9,
