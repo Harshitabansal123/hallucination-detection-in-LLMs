@@ -1,0 +1,696 @@
+{
+  "samples": [
+    {
+      "sample_id": 101,
+      "question": "Evaluation set (en): True statements (twins of the false ones)",
+      "language": "en",
+      "model": "manually_drafted_evaluation_set",
+      "answer": "The Taj Mahal is located in Agra. Water boils at 100 degrees Celsius at normal atmospheric pressure. The Earth orbits the Sun. The Moon is the natural satellite of the Earth. Mahatma Gandhi was born in 1869. India became independent in 1947. Tokyo is the capital of Japan. Plants release oxygen during photosynthesis. The human heart has four chambers. The Ganga river flows through Varanasi. Mount Everest is the highest mountain above sea level. The Statue of Unity is in Gujarat. A week has seven days. Albert Einstein developed the theory of relativity. The chemical symbol for gold is Au.",
+      "claims": [
+        {
+          "claim_id": 1,
+          "claim": "The Taj Mahal is located in Agra."
+        },
+        {
+          "claim_id": 2,
+          "claim": "Water boils at 100 degrees Celsius at normal atmospheric pressure."
+        },
+        {
+          "claim_id": 3,
+          "claim": "The Earth orbits the Sun."
+        },
+        {
+          "claim_id": 4,
+          "claim": "The Moon is the natural satellite of the Earth."
+        },
+        {
+          "claim_id": 5,
+          "claim": "Mahatma Gandhi was born in 1869."
+        },
+        {
+          "claim_id": 6,
+          "claim": "India became independent in 1947."
+        },
+        {
+          "claim_id": 7,
+          "claim": "Tokyo is the capital of Japan."
+        },
+        {
+          "claim_id": 8,
+          "claim": "Plants release oxygen during photosynthesis."
+        },
+        {
+          "claim_id": 9,
+          "claim": "The human heart has four chambers."
+        },
+        {
+          "claim_id": 10,
+          "claim": "The Ganga river flows through Varanasi."
+        },
+        {
+          "claim_id": 11,
+          "claim": "Mount Everest is the highest mountain above sea level."
+        },
+        {
+          "claim_id": 12,
+          "claim": "The Statue of Unity is in Gujarat."
+        },
+        {
+          "claim_id": 13,
+          "claim": "A week has seven days."
+        },
+        {
+          "claim_id": 14,
+          "claim": "Albert Einstein developed the theory of relativity."
+        },
+        {
+          "claim_id": 15,
+          "claim": "The chemical symbol for gold is Au."
+        }
+      ],
+      "review_status": "pending_language_and_fact_review",
+      "data_origin": "drafted_evaluation_set_not_yet_verified"
+    },
+    {
+      "sample_id": 102,
+      "question": "Evaluation set (en): Deliberately false statements (one fact changed)",
+      "language": "en",
+      "model": "manually_drafted_evaluation_set",
+      "answer": "The Taj Mahal is located in Jaipur. Water boils at 50 degrees Celsius at normal atmospheric pressure. The Sun orbits the Earth. Mars is the natural satellite of the Earth. Mahatma Gandhi was born in 1900. India became independent in 1950. Osaka is the capital of Japan. Plants release nitrogen during photosynthesis. The human heart has six chambers. The Ganga river flows through Jaipur. K2 is the highest mountain above sea level. The Statue of Unity is in Rajasthan. A week has ten days. Isaac Newton developed the theory of relativity. The chemical symbol for gold is Ag.",
+      "claims": [
+        {
+          "claim_id": 1,
+          "claim": "The Taj Mahal is located in Jaipur."
+        },
+        {
+          "claim_id": 2,
+          "claim": "Water boils at 50 degrees Celsius at normal atmospheric pressure."
+        },
+        {
+          "claim_id": 3,
+          "claim": "The Sun orbits the Earth."
+        },
+        {
+          "claim_id": 4,
+          "claim": "Mars is the natural satellite of the Earth."
+        },
+        {
+          "claim_id": 5,
+          "claim": "Mahatma Gandhi was born in 1900."
+        },
+        {
+          "claim_id": 6,
+          "claim": "India became independent in 1950."
+        },
+        {
+          "claim_id": 7,
+          "claim": "Osaka is the capital of Japan."
+        },
+        {
+          "claim_id": 8,
+          "claim": "Plants release nitrogen during photosynthesis."
+        },
+        {
+          "claim_id": 9,
+          "claim": "The human heart has six chambers."
+        },
+        {
+          "claim_id": 10,
+          "claim": "The Ganga river flows through Jaipur."
+        },
+        {
+          "claim_id": 11,
+          "claim": "K2 is the highest mountain above sea level."
+        },
+        {
+          "claim_id": 12,
+          "claim": "The Statue of Unity is in Rajasthan."
+        },
+        {
+          "claim_id": 13,
+          "claim": "A week has ten days."
+        },
+        {
+          "claim_id": 14,
+          "claim": "Isaac Newton developed the theory of relativity."
+        },
+        {
+          "claim_id": 15,
+          "claim": "The chemical symbol for gold is Ag."
+        }
+      ],
+      "review_status": "pending_language_and_fact_review",
+      "data_origin": "drafted_evaluation_set_not_yet_verified"
+    },
+    {
+      "sample_id": 103,
+      "question": "Evaluation set (en): Plausible statements that cannot be checked",
+      "language": "en",
+      "model": "manually_drafted_evaluation_set",
+      "answer": "Alexander Fleming ate a sandwich for lunch on the day he noticed the mold in his culture dish. Albert Einstein's favourite fruit was the apple. Shah Jahan personally chose the marble for the third minaret of the Taj Mahal. Marie Curie drank a cup of tea every evening while she worked in her laboratory. Edmund Hillary ate rice on the evening before he reached the summit of Mount Everest.",
+      "claims": [
+        {
+          "claim_id": 1,
+          "claim": "Alexander Fleming ate a sandwich for lunch on the day he noticed the mold in his culture dish."
+        },
+        {
+          "claim_id": 2,
+          "claim": "Albert Einstein's favourite fruit was the apple."
+        },
+        {
+          "claim_id": 3,
+          "claim": "Shah Jahan personally chose the marble for the third minaret of the Taj Mahal."
+        },
+        {
+          "claim_id": 4,
+          "claim": "Marie Curie drank a cup of tea every evening while she worked in her laboratory."
+        },
+        {
+          "claim_id": 5,
+          "claim": "Edmund Hillary ate rice on the evening before he reached the summit of Mount Everest."
+        }
+      ],
+      "review_status": "pending_language_and_fact_review",
+      "data_origin": "drafted_evaluation_set_not_yet_verified"
+    },
+    {
+      "sample_id": 104,
+      "question": "Evaluation set (hi): True statements (twins of the false ones)",
+      "language": "hi",
+      "model": "manually_drafted_evaluation_set",
+      "answer": "ताजमहल आगरा में स्थित है। सामान्य वायुमंडलीय दाब पर पानी 100 डिग्री सेल्सियस पर उबलता है। पृथ्वी सूर्य की परिक्रमा करती है। चंद्रमा पृथ्वी का प्राकृतिक उपग्रह है। महात्मा गांधी का जन्म 1869 में हुआ था। भारत 1947 में स्वतंत्र हुआ। टोक्यो जापान की राजधानी है। प्रकाश संश्लेषण के दौरान पौधे ऑक्सीजन छोड़ते हैं। मानव हृदय में चार कक्ष होते हैं। गंगा नदी वाराणसी से होकर बहती है। माउंट एवरेस्ट समुद्र तल से सबसे ऊँचा पर्वत है। स्टैच्यू ऑफ यूनिटी गुजरात में है। एक सप्ताह में सात दिन होते हैं। अल्बर्ट आइंस्टीन ने सापेक्षता का सिद्धांत विकसित किया। सोने का रासायनिक प्रतीक Au है।",
+      "claims": [
+        {
+          "claim_id": 1,
+          "claim": "ताजमहल आगरा में स्थित है।"
+        },
+        {
+          "claim_id": 2,
+          "claim": "सामान्य वायुमंडलीय दाब पर पानी 100 डिग्री सेल्सियस पर उबलता है।"
+        },
+        {
+          "claim_id": 3,
+          "claim": "पृथ्वी सूर्य की परिक्रमा करती है।"
+        },
+        {
+          "claim_id": 4,
+          "claim": "चंद्रमा पृथ्वी का प्राकृतिक उपग्रह है।"
+        },
+        {
+          "claim_id": 5,
+          "claim": "महात्मा गांधी का जन्म 1869 में हुआ था।"
+        },
+        {
+          "claim_id": 6,
+          "claim": "भारत 1947 में स्वतंत्र हुआ।"
+        },
+        {
+          "claim_id": 7,
+          "claim": "टोक्यो जापान की राजधानी है।"
+        },
+        {
+          "claim_id": 8,
+          "claim": "प्रकाश संश्लेषण के दौरान पौधे ऑक्सीजन छोड़ते हैं।"
+        },
+        {
+          "claim_id": 9,
+          "claim": "मानव हृदय में चार कक्ष होते हैं।"
+        },
+        {
+          "claim_id": 10,
+          "claim": "गंगा नदी वाराणसी से होकर बहती है।"
+        },
+        {
+          "claim_id": 11,
+          "claim": "माउंट एवरेस्ट समुद्र तल से सबसे ऊँचा पर्वत है।"
+        },
+        {
+          "claim_id": 12,
+          "claim": "स्टैच्यू ऑफ यूनिटी गुजरात में है।"
+        },
+        {
+          "claim_id": 13,
+          "claim": "एक सप्ताह में सात दिन होते हैं।"
+        },
+        {
+          "claim_id": 14,
+          "claim": "अल्बर्ट आइंस्टीन ने सापेक्षता का सिद्धांत विकसित किया।"
+        },
+        {
+          "claim_id": 15,
+          "claim": "सोने का रासायनिक प्रतीक Au है।"
+        }
+      ],
+      "review_status": "pending_language_and_fact_review",
+      "data_origin": "drafted_evaluation_set_not_yet_verified"
+    },
+    {
+      "sample_id": 105,
+      "question": "Evaluation set (hi): Deliberately false statements (one fact changed)",
+      "language": "hi",
+      "model": "manually_drafted_evaluation_set",
+      "answer": "ताजमहल जयपुर में स्थित है। सामान्य वायुमंडलीय दाब पर पानी 50 डिग्री सेल्सियस पर उबलता है। सूर्य पृथ्वी की परिक्रमा करता है। मंगल पृथ्वी का प्राकृतिक उपग्रह है। महात्मा गांधी का जन्म 1900 में हुआ था। भारत 1950 में स्वतंत्र हुआ। ओसाका जापान की राजधानी है। प्रकाश संश्लेषण के दौरान पौधे नाइट्रोजन छोड़ते हैं। मानव हृदय में छह कक्ष होते हैं। गंगा नदी जयपुर से होकर बहती है। के2 समुद्र तल से सबसे ऊँचा पर्वत है। स्टैच्यू ऑफ यूनिटी राजस्थान में है। एक सप्ताह में दस दिन होते हैं। आइज़क न्यूटन ने सापेक्षता का सिद्धांत विकसित किया। सोने का रासायनिक प्रतीक Ag है।",
+      "claims": [
+        {
+          "claim_id": 1,
+          "claim": "ताजमहल जयपुर में स्थित है।"
+        },
+        {
+          "claim_id": 2,
+          "claim": "सामान्य वायुमंडलीय दाब पर पानी 50 डिग्री सेल्सियस पर उबलता है।"
+        },
+        {
+          "claim_id": 3,
+          "claim": "सूर्य पृथ्वी की परिक्रमा करता है।"
+        },
+        {
+          "claim_id": 4,
+          "claim": "मंगल पृथ्वी का प्राकृतिक उपग्रह है।"
+        },
+        {
+          "claim_id": 5,
+          "claim": "महात्मा गांधी का जन्म 1900 में हुआ था।"
+        },
+        {
+          "claim_id": 6,
+          "claim": "भारत 1950 में स्वतंत्र हुआ।"
+        },
+        {
+          "claim_id": 7,
+          "claim": "ओसाका जापान की राजधानी है।"
+        },
+        {
+          "claim_id": 8,
+          "claim": "प्रकाश संश्लेषण के दौरान पौधे नाइट्रोजन छोड़ते हैं।"
+        },
+        {
+          "claim_id": 9,
+          "claim": "मानव हृदय में छह कक्ष होते हैं।"
+        },
+        {
+          "claim_id": 10,
+          "claim": "गंगा नदी जयपुर से होकर बहती है।"
+        },
+        {
+          "claim_id": 11,
+          "claim": "के2 समुद्र तल से सबसे ऊँचा पर्वत है।"
+        },
+        {
+          "claim_id": 12,
+          "claim": "स्टैच्यू ऑफ यूनिटी राजस्थान में है।"
+        },
+        {
+          "claim_id": 13,
+          "claim": "एक सप्ताह में दस दिन होते हैं।"
+        },
+        {
+          "claim_id": 14,
+          "claim": "आइज़क न्यूटन ने सापेक्षता का सिद्धांत विकसित किया।"
+        },
+        {
+          "claim_id": 15,
+          "claim": "सोने का रासायनिक प्रतीक Ag है।"
+        }
+      ],
+      "review_status": "pending_language_and_fact_review",
+      "data_origin": "drafted_evaluation_set_not_yet_verified"
+    },
+    {
+      "sample_id": 106,
+      "question": "Evaluation set (hi): Plausible statements that cannot be checked",
+      "language": "hi",
+      "model": "manually_drafted_evaluation_set",
+      "answer": "जिस दिन अलेक्जेंडर फ्लेमिंग ने अपनी कल्चर डिश में फफूंद देखी, उस दिन उन्होंने दोपहर के भोजन में सैंडविच खाया था। अल्बर्ट आइंस्टीन का पसंदीदा फल सेब था। शाहजहाँ ने ताजमहल की तीसरी मीनार के लिए संगमरमर स्वयं चुना था। मैरी क्यूरी अपनी प्रयोगशाला में काम करते समय हर शाम एक कप चाय पीती थीं। एडमंड हिलेरी ने माउंट एवरेस्ट की चोटी पर पहुँचने से एक शाम पहले चावल खाए थे।",
+      "claims": [
+        {
+          "claim_id": 1,
+          "claim": "जिस दिन अलेक्जेंडर फ्लेमिंग ने अपनी कल्चर डिश में फफूंद देखी, उस दिन उन्होंने दोपहर के भोजन में सैंडविच खाया था।"
+        },
+        {
+          "claim_id": 2,
+          "claim": "अल्बर्ट आइंस्टीन का पसंदीदा फल सेब था।"
+        },
+        {
+          "claim_id": 3,
+          "claim": "शाहजहाँ ने ताजमहल की तीसरी मीनार के लिए संगमरमर स्वयं चुना था।"
+        },
+        {
+          "claim_id": 4,
+          "claim": "मैरी क्यूरी अपनी प्रयोगशाला में काम करते समय हर शाम एक कप चाय पीती थीं।"
+        },
+        {
+          "claim_id": 5,
+          "claim": "एडमंड हिलेरी ने माउंट एवरेस्ट की चोटी पर पहुँचने से एक शाम पहले चावल खाए थे।"
+        }
+      ],
+      "review_status": "pending_language_and_fact_review",
+      "data_origin": "drafted_evaluation_set_not_yet_verified"
+    },
+    {
+      "sample_id": 107,
+      "question": "Evaluation set (bn): True statements (twins of the false ones)",
+      "language": "bn",
+      "model": "manually_drafted_evaluation_set",
+      "answer": "তাজমহল আগ্রায় অবস্থিত। স্বাভাবিক বায়ুমণ্ডলীয় চাপে জল ১০০ ডিগ্রি সেলসিয়াসে ফোটে। পৃথিবী সূর্যকে প্রদক্ষিণ করে। চাঁদ পৃথিবীর প্রাকৃতিক উপগ্রহ। মহাত্মা গান্ধীর জন্ম ১৮৬৯ সালে। ভারত ১৯৪৭ সালে স্বাধীন হয়। টোকিও জাপানের রাজধানী। সালোকসংশ্লেষের সময় উদ্ভিদ অক্সিজেন ত্যাগ করে। মানুষের হৃদপিণ্ডে চারটি প্রকোষ্ঠ থাকে। গঙ্গা নদী বারাণসীর মধ্য দিয়ে প্রবাহিত হয়। মাউন্ট এভারেস্ট সমুদ্রপৃষ্ঠ থেকে সবচেয়ে উঁচু পর্বত। স্ট্যাচু অফ ইউনিটি গুজরাটে অবস্থিত। এক সপ্তাহে সাত দিন থাকে। আলবার্ট আইনস্টাইন আপেক্ষিকতার তত্ত্ব প্রণয়ন করেন। সোনার রাসায়নিক প্রতীক Au।",
+      "claims": [
+        {
+          "claim_id": 1,
+          "claim": "তাজমহল আগ্রায় অবস্থিত।"
+        },
+        {
+          "claim_id": 2,
+          "claim": "স্বাভাবিক বায়ুমণ্ডলীয় চাপে জল ১০০ ডিগ্রি সেলসিয়াসে ফোটে।"
+        },
+        {
+          "claim_id": 3,
+          "claim": "পৃথিবী সূর্যকে প্রদক্ষিণ করে।"
+        },
+        {
+          "claim_id": 4,
+          "claim": "চাঁদ পৃথিবীর প্রাকৃতিক উপগ্রহ।"
+        },
+        {
+          "claim_id": 5,
+          "claim": "মহাত্মা গান্ধীর জন্ম ১৮৬৯ সালে।"
+        },
+        {
+          "claim_id": 6,
+          "claim": "ভারত ১৯৪৭ সালে স্বাধীন হয়।"
+        },
+        {
+          "claim_id": 7,
+          "claim": "টোকিও জাপানের রাজধানী।"
+        },
+        {
+          "claim_id": 8,
+          "claim": "সালোকসংশ্লেষের সময় উদ্ভিদ অক্সিজেন ত্যাগ করে।"
+        },
+        {
+          "claim_id": 9,
+          "claim": "মানুষের হৃদপিণ্ডে চারটি প্রকোষ্ঠ থাকে।"
+        },
+        {
+          "claim_id": 10,
+          "claim": "গঙ্গা নদী বারাণসীর মধ্য দিয়ে প্রবাহিত হয়।"
+        },
+        {
+          "claim_id": 11,
+          "claim": "মাউন্ট এভারেস্ট সমুদ্রপৃষ্ঠ থেকে সবচেয়ে উঁচু পর্বত।"
+        },
+        {
+          "claim_id": 12,
+          "claim": "স্ট্যাচু অফ ইউনিটি গুজরাটে অবস্থিত।"
+        },
+        {
+          "claim_id": 13,
+          "claim": "এক সপ্তাহে সাত দিন থাকে।"
+        },
+        {
+          "claim_id": 14,
+          "claim": "আলবার্ট আইনস্টাইন আপেক্ষিকতার তত্ত্ব প্রণয়ন করেন।"
+        },
+        {
+          "claim_id": 15,
+          "claim": "সোনার রাসায়নিক প্রতীক Au।"
+        }
+      ],
+      "review_status": "pending_language_and_fact_review",
+      "data_origin": "drafted_evaluation_set_not_yet_verified"
+    },
+    {
+      "sample_id": 108,
+      "question": "Evaluation set (bn): Deliberately false statements (one fact changed)",
+      "language": "bn",
+      "model": "manually_drafted_evaluation_set",
+      "answer": "তাজমহল জয়পুরে অবস্থিত। স্বাভাবিক বায়ুমণ্ডলীয় চাপে জল ৫০ ডিগ্রি সেলসিয়াসে ফোটে। সূর্য পৃথিবীকে প্রদক্ষিণ করে। মঙ্গল পৃথিবীর প্রাকৃতিক উপগ্রহ। মহাত্মা গান্ধীর জন্ম ১৯০০ সালে। ভারত ১৯৫০ সালে স্বাধীন হয়। ওসাকা জাপানের রাজধানী। সালোকসংশ্লেষের সময় উদ্ভিদ নাইট্রোজেন ত্যাগ করে। মানুষের হৃদপিণ্ডে ছয়টি প্রকোষ্ঠ থাকে। গঙ্গা নদী জয়পুরের মধ্য দিয়ে প্রবাহিত হয়। কে২ সমুদ্রপৃষ্ঠ থেকে সবচেয়ে উঁচু পর্বত। স্ট্যাচু অফ ইউনিটি রাজস্থানে অবস্থিত। এক সপ্তাহে দশ দিন থাকে। আইজাক নিউটন আপেক্ষিকতার তত্ত্ব প্রণয়ন করেন। সোনার রাসায়নিক প্রতীক Ag।",
+      "claims": [
+        {
+          "claim_id": 1,
+          "claim": "তাজমহল জয়পুরে অবস্থিত।"
+        },
+        {
+          "claim_id": 2,
+          "claim": "স্বাভাবিক বায়ুমণ্ডলীয় চাপে জল ৫০ ডিগ্রি সেলসিয়াসে ফোটে।"
+        },
+        {
+          "claim_id": 3,
+          "claim": "সূর্য পৃথিবীকে প্রদক্ষিণ করে।"
+        },
+        {
+          "claim_id": 4,
+          "claim": "মঙ্গল পৃথিবীর প্রাকৃতিক উপগ্রহ।"
+        },
+        {
+          "claim_id": 5,
+          "claim": "মহাত্মা গান্ধীর জন্ম ১৯০০ সালে।"
+        },
+        {
+          "claim_id": 6,
+          "claim": "ভারত ১৯৫০ সালে স্বাধীন হয়।"
+        },
+        {
+          "claim_id": 7,
+          "claim": "ওসাকা জাপানের রাজধানী।"
+        },
+        {
+          "claim_id": 8,
+          "claim": "সালোকসংশ্লেষের সময় উদ্ভিদ নাইট্রোজেন ত্যাগ করে।"
+        },
+        {
+          "claim_id": 9,
+          "claim": "মানুষের হৃদপিণ্ডে ছয়টি প্রকোষ্ঠ থাকে।"
+        },
+        {
+          "claim_id": 10,
+          "claim": "গঙ্গা নদী জয়পুরের মধ্য দিয়ে প্রবাহিত হয়।"
+        },
+        {
+          "claim_id": 11,
+          "claim": "কে২ সমুদ্রপৃষ্ঠ থেকে সবচেয়ে উঁচু পর্বত।"
+        },
+        {
+          "claim_id": 12,
+          "claim": "স্ট্যাচু অফ ইউনিটি রাজস্থানে অবস্থিত।"
+        },
+        {
+          "claim_id": 13,
+          "claim": "এক সপ্তাহে দশ দিন থাকে।"
+        },
+        {
+          "claim_id": 14,
+          "claim": "আইজাক নিউটন আপেক্ষিকতার তত্ত্ব প্রণয়ন করেন।"
+        },
+        {
+          "claim_id": 15,
+          "claim": "সোনার রাসায়নিক প্রতীক Ag।"
+        }
+      ],
+      "review_status": "pending_language_and_fact_review",
+      "data_origin": "drafted_evaluation_set_not_yet_verified"
+    },
+    {
+      "sample_id": 109,
+      "question": "Evaluation set (bn): Plausible statements that cannot be checked",
+      "language": "bn",
+      "model": "manually_drafted_evaluation_set",
+      "answer": "যেদিন অ্যালেক্সান্ডার ফ্লেমিং তাঁর কালচার ডিশে ছত্রাক লক্ষ্য করেন, সেদিন তিনি দুপুরের খাবারে একটি স্যান্ডউইচ খেয়েছিলেন। আলবার্ট আইনস্টাইনের প্রিয় ফল ছিল আপেল। শাহজাহান নিজে তাজমহলের তৃতীয় মিনারের জন্য মার্বেল বেছে নিয়েছিলেন। মারি কুরি তাঁর পরীক্ষাগারে কাজ করার সময় প্রতি সন্ধ্যায় এক কাপ চা পান করতেন। এডমন্ড হিলারি মাউন্ট এভারেস্টের চূড়ায় পৌঁছানোর আগের সন্ধ্যায় ভাত খেয়েছিলেন।",
+      "claims": [
+        {
+          "claim_id": 1,
+          "claim": "যেদিন অ্যালেক্সান্ডার ফ্লেমিং তাঁর কালচার ডিশে ছত্রাক লক্ষ্য করেন, সেদিন তিনি দুপুরের খাবারে একটি স্যান্ডউইচ খেয়েছিলেন।"
+        },
+        {
+          "claim_id": 2,
+          "claim": "আলবার্ট আইনস্টাইনের প্রিয় ফল ছিল আপেল।"
+        },
+        {
+          "claim_id": 3,
+          "claim": "শাহজাহান নিজে তাজমহলের তৃতীয় মিনারের জন্য মার্বেল বেছে নিয়েছিলেন।"
+        },
+        {
+          "claim_id": 4,
+          "claim": "মারি কুরি তাঁর পরীক্ষাগারে কাজ করার সময় প্রতি সন্ধ্যায় এক কাপ চা পান করতেন।"
+        },
+        {
+          "claim_id": 5,
+          "claim": "এডমন্ড হিলারি মাউন্ট এভারেস্টের চূড়ায় পৌঁছানোর আগের সন্ধ্যায় ভাত খেয়েছিলেন।"
+        }
+      ],
+      "review_status": "pending_language_and_fact_review",
+      "data_origin": "drafted_evaluation_set_not_yet_verified"
+    },
+    {
+      "sample_id": 110,
+      "question": "Evaluation set (mr): True statements (twins of the false ones)",
+      "language": "mr",
+      "model": "manually_drafted_evaluation_set",
+      "answer": "ताजमहाल आग्रा येथे आहे. सामान्य वातावरणीय दाबावर पाणी १०० अंश सेल्सिअस तापमानाला उकळते. पृथ्वी सूर्याभोवती फिरते. चंद्र हा पृथ्वीचा नैसर्गिक उपग्रह आहे. महात्मा गांधी यांचा जन्म १८६९ मध्ये झाला. भारत १९४७ मध्ये स्वतंत्र झाला. टोकियो ही जपानची राजधानी आहे. प्रकाशसंश्लेषणादरम्यान वनस्पती ऑक्सिजन बाहेर सोडतात. मानवी हृदयाला चार कप्पे असतात. गंगा नदी वाराणसीतून वाहते. माउंट एव्हरेस्ट हा समुद्रसपाटीपासून सर्वात उंच पर्वत आहे. स्टॅच्यू ऑफ युनिटी गुजरातमध्ये आहे. एका आठवड्यात सात दिवस असतात. अल्बर्ट आइन्स्टाईन यांनी सापेक्षतावादाचा सिद्धांत मांडला. सोन्याचे रासायनिक चिन्ह Au आहे.",
+      "claims": [
+        {
+          "claim_id": 1,
+          "claim": "ताजमहाल आग्रा येथे आहे."
+        },
+        {
+          "claim_id": 2,
+          "claim": "सामान्य वातावरणीय दाबावर पाणी १०० अंश सेल्सिअस तापमानाला उकळते."
+        },
+        {
+          "claim_id": 3,
+          "claim": "पृथ्वी सूर्याभोवती फिरते."
+        },
+        {
+          "claim_id": 4,
+          "claim": "चंद्र हा पृथ्वीचा नैसर्गिक उपग्रह आहे."
+        },
+        {
+          "claim_id": 5,
+          "claim": "महात्मा गांधी यांचा जन्म १८६९ मध्ये झाला."
+        },
+        {
+          "claim_id": 6,
+          "claim": "भारत १९४७ मध्ये स्वतंत्र झाला."
+        },
+        {
+          "claim_id": 7,
+          "claim": "टोकियो ही जपानची राजधानी आहे."
+        },
+        {
+          "claim_id": 8,
+          "claim": "प्रकाशसंश्लेषणादरम्यान वनस्पती ऑक्सिजन बाहेर सोडतात."
+        },
+        {
+          "claim_id": 9,
+          "claim": "मानवी हृदयाला चार कप्पे असतात."
+        },
+        {
+          "claim_id": 10,
+          "claim": "गंगा नदी वाराणसीतून वाहते."
+        },
+        {
+          "claim_id": 11,
+          "claim": "माउंट एव्हरेस्ट हा समुद्रसपाटीपासून सर्वात उंच पर्वत आहे."
+        },
+        {
+          "claim_id": 12,
+          "claim": "स्टॅच्यू ऑफ युनिटी गुजरातमध्ये आहे."
+        },
+        {
+          "claim_id": 13,
+          "claim": "एका आठवड्यात सात दिवस असतात."
+        },
+        {
+          "claim_id": 14,
+          "claim": "अल्बर्ट आइन्स्टाईन यांनी सापेक्षतावादाचा सिद्धांत मांडला."
+        },
+        {
+          "claim_id": 15,
+          "claim": "सोन्याचे रासायनिक चिन्ह Au आहे."
+        }
+      ],
+      "review_status": "pending_language_and_fact_review",
+      "data_origin": "drafted_evaluation_set_not_yet_verified"
+    },
+    {
+      "sample_id": 111,
+      "question": "Evaluation set (mr): Deliberately false statements (one fact changed)",
+      "language": "mr",
+      "model": "manually_drafted_evaluation_set",
+      "answer": "ताजमहाल जयपूर येथे आहे. सामान्य वातावरणीय दाबावर पाणी ५० अंश सेल्सिअस तापमानाला उकळते. सूर्य पृथ्वीभोवती फिरतो. मंगळ हा पृथ्वीचा नैसर्गिक उपग्रह आहे. महात्मा गांधी यांचा जन्म १९०० मध्ये झाला. भारत १९५० मध्ये स्वतंत्र झाला. ओसाका ही जपानची राजधानी आहे. प्रकाशसंश्लेषणादरम्यान वनस्पती नायट्रोजन बाहेर सोडतात. मानवी हृदयाला सहा कप्पे असतात. गंगा नदी जयपूरमधून वाहते. के२ हा समुद्रसपाटीपासून सर्वात उंच पर्वत आहे. स्टॅच्यू ऑफ युनिटी राजस्थानमध्ये आहे. एका आठवड्यात दहा दिवस असतात. आयझॅक न्यूटन यांनी सापेक्षतावादाचा सिद्धांत मांडला. सोन्याचे रासायनिक चिन्ह Ag आहे.",
+      "claims": [
+        {
+          "claim_id": 1,
+          "claim": "ताजमहाल जयपूर येथे आहे."
+        },
+        {
+          "claim_id": 2,
+          "claim": "सामान्य वातावरणीय दाबावर पाणी ५० अंश सेल्सिअस तापमानाला उकळते."
+        },
+        {
+          "claim_id": 3,
+          "claim": "सूर्य पृथ्वीभोवती फिरतो."
+        },
+        {
+          "claim_id": 4,
+          "claim": "मंगळ हा पृथ्वीचा नैसर्गिक उपग्रह आहे."
+        },
+        {
+          "claim_id": 5,
+          "claim": "महात्मा गांधी यांचा जन्म १९०० मध्ये झाला."
+        },
+        {
+          "claim_id": 6,
+          "claim": "भारत १९५० मध्ये स्वतंत्र झाला."
+        },
+        {
+          "claim_id": 7,
+          "claim": "ओसाका ही जपानची राजधानी आहे."
+        },
+        {
+          "claim_id": 8,
+          "claim": "प्रकाशसंश्लेषणादरम्यान वनस्पती नायट्रोजन बाहेर सोडतात."
+        },
+        {
+          "claim_id": 9,
+          "claim": "मानवी हृदयाला सहा कप्पे असतात."
+        },
+        {
+          "claim_id": 10,
+          "claim": "गंगा नदी जयपूरमधून वाहते."
+        },
+        {
+          "claim_id": 11,
+          "claim": "के२ हा समुद्रसपाटीपासून सर्वात उंच पर्वत आहे."
+        },
+        {
+          "claim_id": 12,
+          "claim": "स्टॅच्यू ऑफ युनिटी राजस्थानमध्ये आहे."
+        },
+        {
+          "claim_id": 13,
+          "claim": "एका आठवड्यात दहा दिवस असतात."
+        },
+        {
+          "claim_id": 14,
+          "claim": "आयझॅक न्यूटन यांनी सापेक्षतावादाचा सिद्धांत मांडला."
+        },
+        {
+          "claim_id": 15,
+          "claim": "सोन्याचे रासायनिक चिन्ह Ag आहे."
+        }
+      ],
+      "review_status": "pending_language_and_fact_review",
+      "data_origin": "drafted_evaluation_set_not_yet_verified"
+    },
+    {
+      "sample_id": 112,
+      "question": "Evaluation set (mr): Plausible statements that cannot be checked",
+      "language": "mr",
+      "model": "manually_drafted_evaluation_set",
+      "answer": "ज्या दिवशी अलेक्झांडर फ्लेमिंग यांनी त्यांच्या कल्चर डिशमध्ये बुरशी पाहिली, त्या दिवशी त्यांनी दुपारच्या जेवणात सँडविच खाल्ले होते. अल्बर्ट आइन्स्टाईन यांचे आवडते फळ सफरचंद होते. शाहजहानने ताजमहालाच्या तिसऱ्या मनोऱ्यासाठी संगमरवर स्वतः निवडला होता. मेरी क्युरी प्रयोगशाळेत काम करताना दररोज संध्याकाळी एक कप चहा पीत असत. एडमंड हिलरी यांनी माउंट एव्हरेस्टच्या शिखरावर पोहोचण्याच्या आदल्या संध्याकाळी भात खाल्ला होता.",
+      "claims": [
+        {
+          "claim_id": 1,
+          "claim": "ज्या दिवशी अलेक्झांडर फ्लेमिंग यांनी त्यांच्या कल्चर डिशमध्ये बुरशी पाहिली, त्या दिवशी त्यांनी दुपारच्या जेवणात सँडविच खाल्ले होते."
+        },
+        {
+          "claim_id": 2,
+          "claim": "अल्बर्ट आइन्स्टाईन यांचे आवडते फळ सफरचंद होते."
+        },
+        {
+          "claim_id": 3,
+          "claim": "शाहजहानने ताजमहालाच्या तिसऱ्या मनोऱ्यासाठी संगमरवर स्वतः निवडला होता."
+        },
+        {
+          "claim_id": 4,
+          "claim": "मेरी क्युरी प्रयोगशाळेत काम करताना दररोज संध्याकाळी एक कप चहा पीत असत."
+        },
+        {
+          "claim_id": 5,
+          "claim": "एडमंड हिलरी यांनी माउंट एव्हरेस्टच्या शिखरावर पोहोचण्याच्या आदल्या संध्याकाळी भात खाल्ला होता."
+        }
+      ],
+      "review_status": "pending_language_and_fact_review",
+      "data_origin": "drafted_evaluation_set_not_yet_verified"
+    }
+  ]
+}
