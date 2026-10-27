@@ -1,0 +1,610 @@
+{
+  "label_status": "DRAFT written by Claude from general knowledge - a human must review every label before reporting results",
+  "label_meaning": {
+    "supported": "claim is factually true",
+    "contradicted": "claim is factually false",
+    "unsupported": "claim is nonsensical or not checkable"
+  },
+  "labels": [
+    {
+      "sample_id": 1,
+      "claim_id": 1,
+      "language": "en",
+      "claim": "Penicillin was discovered by Alexander Fleming in 1928.",
+      "label": "supported",
+      "note": ""
+    },
+    {
+      "sample_id": 1,
+      "claim_id": 2,
+      "language": "en",
+      "claim": "Fleming was a Scottish-born British bacteriologist.",
+      "label": "supported",
+      "note": ""
+    },
+    {
+      "sample_id": 1,
+      "claim_id": 3,
+      "language": "en",
+      "claim": "A mold called Penicillium notatum had contaminated a culture dish and had formed a circle around which bacteria were not growing.",
+      "label": "supported",
+      "note": ""
+    },
+    {
+      "sample_id": 1,
+      "claim_id": 4,
+      "language": "en",
+      "claim": "Fleming's discovery led to the discovery of the antibiotic properties of the mold.",
+      "label": "supported",
+      "note": "true but circular"
+    },
+    {
+      "sample_id": 1,
+      "claim_id": 5,
+      "language": "en",
+      "claim": "Fleming named the substance 'penicillin'.",
+      "label": "supported",
+      "note": ""
+    },
+    {
+      "sample_id": 2,
+      "claim_id": 1,
+      "language": "en",
+      "claim": "Machine learning is a subset of artificial intelligence.",
+      "label": "supported",
+      "note": ""
+    },
+    {
+      "sample_id": 2,
+      "claim_id": 2,
+      "language": "en",
+      "claim": "Machine learning enables software applications to become more accurate in predicting outcomes.",
+      "label": "supported",
+      "note": ""
+    },
+    {
+      "sample_id": 2,
+      "claim_id": 3,
+      "language": "en",
+      "claim": "Machine learning algorithms learn from and make predictions or decisions based on patterns and features in the data they process.",
+      "label": "supported",
+      "note": ""
+    },
+    {
+      "sample_id": 2,
+      "claim_id": 4,
+      "language": "en",
+      "claim": "Machine learning includes supervised learning, unsupervised learning, semi-supervised learning, and reinforcement learning.",
+      "label": "supported",
+      "note": ""
+    },
+    {
+      "sample_id": 2,
+      "claim_id": 5,
+      "language": "en",
+      "claim": "Machine learning involves the process of adjusting the parameters of the model to minimize errors between predicted and actual outcomes.",
+      "label": "supported",
+      "note": ""
+    },
+    {
+      "sample_id": 2,
+      "claim_id": 6,
+      "language": "en",
+      "claim": "Machine learning involves assessing how well the model performs on unseen data to ensure it generalizes well to new situations.",
+      "label": "supported",
+      "note": ""
+    },
+    {
+      "sample_id": 2,
+      "claim_id": 7,
+      "language": "en",
+      "claim": "Machine learning involves using the trained model to make predictions or take actions in real-world scenarios.",
+      "label": "supported",
+      "note": ""
+    },
+    {
+      "sample_id": 2,
+      "claim_id": 8,
+      "language": "en",
+      "claim": "Machine learning has numerous applications across various industries.",
+      "label": "supported",
+      "note": "true but vague"
+    },
+    {
+      "sample_id": 3,
+      "claim_id": 1,
+      "language": "en",
+      "claim": "The capital of France is Paris.",
+      "label": "supported",
+      "note": ""
+    },
+    {
+      "sample_id": 4,
+      "claim_id": 1,
+      "language": "en",
+      "claim": "Penicillin was discovered by Alexander Fleming in 1928.",
+      "label": "supported",
+      "note": ""
+    },
+    {
+      "sample_id": 4,
+      "claim_id": 2,
+      "language": "en",
+      "claim": "Fleming was a Scottish-born British bacteriologist.",
+      "label": "supported",
+      "note": ""
+    },
+    {
+      "sample_id": 4,
+      "claim_id": 3,
+      "language": "en",
+      "claim": "A mold called Penicillium notatum had contaminated a culture dish and had formed a circle around which bacteria were not growing.",
+      "label": "supported",
+      "note": ""
+    },
+    {
+      "sample_id": 4,
+      "claim_id": 4,
+      "language": "en",
+      "claim": "Fleming's discovery led to the discovery of the antibiotic properties of the mold.",
+      "label": "supported",
+      "note": ""
+    },
+    {
+      "sample_id": 4,
+      "claim_id": 5,
+      "language": "en",
+      "claim": "Fleming named the substance 'penicillin'.",
+      "label": "supported",
+      "note": ""
+    },
+    {
+      "sample_id": 5,
+      "claim_id": 1,
+      "language": "hi",
+      "claim": "पिङ्गलिन को पिछले लोगों द्वारा खोजकरण किया गया है।",
+      "label": "unsupported",
+      "note": "garbled Hindi, no checkable meaning ('Pingalin discovered by earlier people')"
+    },
+    {
+      "sample_id": 5,
+      "claim_id": 2,
+      "language": "hi",
+      "claim": "इसका खोज ब्रिटेन के एडवियर्थ डेनियल एंटोनियस ने 1928 में किया गया था।",
+      "label": "contradicted",
+      "note": "false: penicillin was discovered by Alexander Fleming, not an invented person"
+    },
+    {
+      "sample_id": 5,
+      "claim_id": 3,
+      "language": "hi",
+      "claim": "इसका खोज नवीन जीवनी का फलस्वरूप चिकित्सा करने वाले एक रोगी के लिए खोज किया गया था।",
+      "label": "unsupported",
+      "note": "garbled Hindi, no checkable meaning"
+    },
+    {
+      "sample_id": 6,
+      "claim_id": 1,
+      "language": "hi",
+      "claim": "मशीन शोध (Machine Learning) है जो की डेटा के आधार पर इनपुट को उच्च स्केलिंग और अच्छी तरह से व्यवस्थित करने की शक्ति देता है।",
+      "label": "unsupported",
+      "note": "garbled definition of machine learning, not a checkable claim"
+    },
+    {
+      "sample_id": 6,
+      "claim_id": 2,
+      "language": "hi",
+      "claim": "एक विशिष्ट शाखा मशीन लर्निंग (Machine Learning) है जो डेटा को ध्यान में रखकर इनपुट को उच्च स्केलिंग और अच्छी तरह से व्यवस्थित करने की शक्ति देता है।",
+      "label": "unsupported",
+      "note": "garbled definition of machine learning, not a checkable claim"
+    },
+    {
+      "sample_id": 7,
+      "claim_id": 1,
+      "language": "en",
+      "claim": "The current Prime Minister of India is Narendra Modi.",
+      "label": "supported",
+      "note": "time-sensitive: true as of the corpus date"
+    },
+    {
+      "sample_id": 8,
+      "claim_id": 1,
+      "language": "en",
+      "claim": "The Taj Mahal is located in Agra.",
+      "label": "supported",
+      "note": ""
+    },
+    {
+      "sample_id": 8,
+      "claim_id": 2,
+      "language": "en",
+      "claim": "Construction of the Taj Mahal began in 1632.",
+      "label": "supported",
+      "note": "sources disagree on 1631 vs 1632; widely cited as 1632"
+    },
+    {
+      "sample_id": 9,
+      "claim_id": 1,
+      "language": "hi",
+      "claim": "ताजमहल आगरा में स्थित है।",
+      "label": "supported",
+      "note": ""
+    },
+    {
+      "sample_id": 9,
+      "claim_id": 2,
+      "language": "hi",
+      "claim": "ताजमहल शाहजहाँ के आदेश पर बनवाया गया था।",
+      "label": "supported",
+      "note": ""
+    },
+    {
+      "sample_id": 9,
+      "claim_id": 3,
+      "language": "hi",
+      "claim": "ताजमहल का निर्माण 1632 में शुरू हुआ।",
+      "label": "supported",
+      "note": "sources disagree on 1631 vs 1632; widely cited as 1632"
+    },
+    {
+      "sample_id": 10,
+      "claim_id": 1,
+      "language": "en",
+      "claim": "The Taj Mahal is located in Agra, India.",
+      "label": "supported",
+      "note": ""
+    },
+    {
+      "sample_id": 11,
+      "claim_id": 1,
+      "language": "bn",
+      "claim": "তাজমহল ইসলামি আরবের মেকনামার সাঁচিয়ে অবস্থিত।",
+      "label": "contradicted",
+      "note": "false: the Taj Mahal is in Agra, India, not in the place named"
+    },
+    {
+      "sample_id": 12,
+      "claim_id": 1,
+      "language": "en",
+      "claim": "The Taj Mahal is located in Agra, India.",
+      "label": "supported",
+      "note": ""
+    },
+    {
+      "sample_id": 13,
+      "claim_id": 1,
+      "language": "mr",
+      "claim": "पृथ्वी सूर्याभोवती फिरते.",
+      "label": "supported",
+      "note": ""
+    },
+    {
+      "sample_id": 13,
+      "claim_id": 2,
+      "language": "mr",
+      "claim": "पृथ्वीचा नैसर्गिक उपग्रह चंद्र आहे.",
+      "label": "supported",
+      "note": ""
+    },
+    {
+      "sample_id": 13,
+      "claim_id": 3,
+      "language": "mr",
+      "claim": "पृथ्वीच्या पृष्ठभागाचा मोठा भाग पाण्याने व्यापलेला आहे.",
+      "label": "supported",
+      "note": ""
+    },
+    {
+      "sample_id": 14,
+      "claim_id": 1,
+      "language": "mr",
+      "claim": "भारताची राजधानी नवी दिल्ली आहे.",
+      "label": "supported",
+      "note": ""
+    },
+    {
+      "sample_id": 14,
+      "claim_id": 2,
+      "language": "mr",
+      "claim": "भारताच्या राष्ट्रध्वजात केशरी रंगाचा आडवा पट्टा आहे.",
+      "label": "supported",
+      "note": ""
+    },
+    {
+      "sample_id": 14,
+      "claim_id": 3,
+      "language": "mr",
+      "claim": "भारताच्या राष्ट्रध्वजात पांढऱ्या रंगाचा आडवा पट्टा आहे.",
+      "label": "supported",
+      "note": ""
+    },
+    {
+      "sample_id": 14,
+      "claim_id": 4,
+      "language": "mr",
+      "claim": "भारताच्या राष्ट्रध्वजात हिरव्या रंगाचा आडवा पट्टा आहे.",
+      "label": "supported",
+      "note": ""
+    },
+    {
+      "sample_id": 14,
+      "claim_id": 5,
+      "language": "mr",
+      "claim": "भारताच्या राष्ट्रध्वजाच्या मध्यभागी निळ्या रंगाचे अशोकचक्र आहे.",
+      "label": "supported",
+      "note": ""
+    },
+    {
+      "sample_id": 15,
+      "claim_id": 1,
+      "language": "mr",
+      "claim": "हिरव्या वनस्पती प्रकाशसंश्लेषणाद्वारे सूर्यप्रकाशाची ऊर्जा वापरतात.",
+      "label": "supported",
+      "note": ""
+    },
+    {
+      "sample_id": 15,
+      "claim_id": 2,
+      "language": "mr",
+      "claim": "प्रकाशसंश्लेषणात वनस्पती कार्बन डायऑक्साइड वापरतात.",
+      "label": "supported",
+      "note": ""
+    },
+    {
+      "sample_id": 15,
+      "claim_id": 3,
+      "language": "mr",
+      "claim": "प्रकाशसंश्लेषणात वनस्पती पाणी वापरतात.",
+      "label": "supported",
+      "note": ""
+    },
+    {
+      "sample_id": 15,
+      "claim_id": 4,
+      "language": "mr",
+      "claim": "प्रकाशसंश्लेषणाद्वारे वनस्पती साखर तयार करतात.",
+      "label": "supported",
+      "note": ""
+    },
+    {
+      "sample_id": 15,
+      "claim_id": 5,
+      "language": "mr",
+      "claim": "प्रकाशसंश्लेषणादरम्यान ऑक्सिजन बाहेर सोडला जातो.",
+      "label": "supported",
+      "note": ""
+    },
+    {
+      "sample_id": 16,
+      "claim_id": 1,
+      "language": "mr",
+      "claim": "सामान्य वातावरणीय दाबावर शुद्ध पाणी साधारणपणे १०० अंश सेल्सिअस तापमानाला उकळते.",
+      "label": "supported",
+      "note": ""
+    },
+    {
+      "sample_id": 16,
+      "claim_id": 2,
+      "language": "mr",
+      "claim": "वातावरणीय दाब बदलल्यास पाण्याचा उकळण्याचा बिंदू बदलू शकतो.",
+      "label": "supported",
+      "note": ""
+    },
+    {
+      "sample_id": 17,
+      "claim_id": 1,
+      "language": "mr",
+      "claim": "CPU चे पूर्ण नाव सेंट्रल प्रोसेसिंग युनिट आहे.",
+      "label": "supported",
+      "note": ""
+    },
+    {
+      "sample_id": 17,
+      "claim_id": 2,
+      "language": "mr",
+      "claim": "CPU संगणकाच्या सूचना कार्यान्वित करते.",
+      "label": "supported",
+      "note": ""
+    },
+    {
+      "sample_id": 17,
+      "claim_id": 3,
+      "language": "mr",
+      "claim": "CPU अंकगणितीय क्रिया करण्यासाठी वापरले जाते.",
+      "label": "supported",
+      "note": ""
+    },
+    {
+      "sample_id": 17,
+      "claim_id": 4,
+      "language": "mr",
+      "claim": "CPU तार्किक क्रिया करण्यासाठी वापरले जाते.",
+      "label": "supported",
+      "note": ""
+    },
+    {
+      "sample_id": 18,
+      "claim_id": 1,
+      "language": "bn",
+      "claim": "পৃথিবী সূর্যের চারদিকে ঘোরে।",
+      "label": "supported",
+      "note": ""
+    },
+    {
+      "sample_id": 18,
+      "claim_id": 2,
+      "language": "bn",
+      "claim": "পৃথিবীর প্রাকৃতিক উপগ্রহের নাম চাঁদ।",
+      "label": "supported",
+      "note": ""
+    },
+    {
+      "sample_id": 18,
+      "claim_id": 3,
+      "language": "bn",
+      "claim": "পৃথিবীর পৃষ্ঠের বড় অংশ জল দিয়ে আবৃত।",
+      "label": "supported",
+      "note": ""
+    },
+    {
+      "sample_id": 19,
+      "claim_id": 1,
+      "language": "bn",
+      "claim": "ভারতের রাজধানী নয়াদিল্লি।",
+      "label": "supported",
+      "note": ""
+    },
+    {
+      "sample_id": 19,
+      "claim_id": 2,
+      "language": "bn",
+      "claim": "ভারতের জাতীয় পতাকায় গেরুয়া রঙের অনুভূমিক দাগ রয়েছে।",
+      "label": "supported",
+      "note": ""
+    },
+    {
+      "sample_id": 19,
+      "claim_id": 3,
+      "language": "bn",
+      "claim": "ভারতের জাতীয় পতাকায় সাদা রঙের অনুভূমিক দাগ রয়েছে।",
+      "label": "supported",
+      "note": ""
+    },
+    {
+      "sample_id": 19,
+      "claim_id": 4,
+      "language": "bn",
+      "claim": "ভারতের জাতীয় পতাকায় সবুজ রঙের অনুভূমিক দাগ রয়েছে।",
+      "label": "supported",
+      "note": ""
+    },
+    {
+      "sample_id": 19,
+      "claim_id": 5,
+      "language": "bn",
+      "claim": "ভারতের জাতীয় পতাকার মাঝখানে নীল রঙের অশোকচক্র রয়েছে।",
+      "label": "supported",
+      "note": ""
+    },
+    {
+      "sample_id": 20,
+      "claim_id": 1,
+      "language": "bn",
+      "claim": "সবুজ উদ্ভিদ সালোকসংশ্লেষের মাধ্যমে সূর্যালোকের শক্তি ব্যবহার করে।",
+      "label": "supported",
+      "note": ""
+    },
+    {
+      "sample_id": 20,
+      "claim_id": 2,
+      "language": "bn",
+      "claim": "সালোকসংশ্লেষের সময় উদ্ভিদ কার্বন ডাই-অক্সাইড ব্যবহার করে।",
+      "label": "supported",
+      "note": ""
+    },
+    {
+      "sample_id": 20,
+      "claim_id": 3,
+      "language": "bn",
+      "claim": "সালোকসংশ্লেষের সময় উদ্ভিদ জল ব্যবহার করে।",
+      "label": "supported",
+      "note": ""
+    },
+    {
+      "sample_id": 20,
+      "claim_id": 4,
+      "language": "bn",
+      "claim": "সালোকসংশ্লেষের মাধ্যমে উদ্ভিদ শর্করা তৈরি করে।",
+      "label": "supported",
+      "note": ""
+    },
+    {
+      "sample_id": 20,
+      "claim_id": 5,
+      "language": "bn",
+      "claim": "সালোকসংশ্লেষের সময় অক্সিজেন নির্গত হয়।",
+      "label": "supported",
+      "note": ""
+    },
+    {
+      "sample_id": 21,
+      "claim_id": 1,
+      "language": "bn",
+      "claim": "স্বাভাবিক বায়ুচাপে বিশুদ্ধ জল সাধারণত ১০০ ডিগ্রি সেলসিয়াসে ফোটে।",
+      "label": "supported",
+      "note": ""
+    },
+    {
+      "sample_id": 21,
+      "claim_id": 2,
+      "language": "bn",
+      "claim": "বায়ুচাপ পরিবর্তিত হলে জলের স্ফুটনাঙ্ক পরিবর্তিত হতে পারে।",
+      "label": "supported",
+      "note": ""
+    },
+    {
+      "sample_id": 22,
+      "claim_id": 1,
+      "language": "bn",
+      "claim": "CPU-এর পূর্ণরূপ Central Processing Unit।",
+      "label": "supported",
+      "note": ""
+    },
+    {
+      "sample_id": 22,
+      "claim_id": 2,
+      "language": "bn",
+      "claim": "CPU কম্পিউটারের নির্দেশ কার্যকর করে।",
+      "label": "supported",
+      "note": ""
+    },
+    {
+      "sample_id": 22,
+      "claim_id": 3,
+      "language": "bn",
+      "claim": "CPU গাণিতিক কাজ সম্পাদন করে।",
+      "label": "supported",
+      "note": ""
+    },
+    {
+      "sample_id": 22,
+      "claim_id": 4,
+      "language": "bn",
+      "claim": "CPU যৌক্তিক কাজ সম্পাদন করে।",
+      "label": "supported",
+      "note": ""
+    },
+    {
+      "sample_id": 23,
+      "claim_id": 1,
+      "language": "bn",
+      "claim": "সূর্য সৌরজগতের একটি নক্ষত্র।",
+      "label": "supported",
+      "note": ""
+    },
+    {
+      "sample_id": 23,
+      "claim_id": 2,
+      "language": "bn",
+      "claim": "পৃথিবী সূর্য থেকে আলো পায়।",
+      "label": "supported",
+      "note": ""
+    },
+    {
+      "sample_id": 23,
+      "claim_id": 3,
+      "language": "bn",
+      "claim": "পৃথিবী সূর্য থেকে তাপ পায়।",
+      "label": "supported",
+      "note": ""
+    },
+    {
+      "sample_id": 23,
+      "claim_id": 4,
+      "language": "bn",
+      "claim": "পৃথিবী সূর্যকে একবার প্রদক্ষিণ করতে প্রায় এক বছর সময় নেয়।",
+      "label": "supported",
+      "note": ""
+    }
+  ]
+}
