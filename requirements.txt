@@ -11,3 +11,4 @@ datasets
 faiss-cpu
 pyserini
 regex
+sentencepiece
